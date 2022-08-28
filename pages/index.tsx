@@ -8,6 +8,9 @@ export default function Home() {
            <Head>
                <title>Fairytales Website</title>
            </Head>
+            <div style={{height: "500rem"}}>
+
+            </div>
         </>
     )
 }
