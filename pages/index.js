@@ -6,9 +6,8 @@ export default function Home() {
     return (
         <>
            <Head>
-               <title>Home</title>
+               <title>Fairytales Website</title>
            </Head>
-            <Header/>
         </>
     )
 }
