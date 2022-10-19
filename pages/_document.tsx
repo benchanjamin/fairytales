@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
         <link rel="stylesheet" href="https://use.typekit.net/txr6nox.css"/>
         </Head>
-        <body>
+        <body className="bg-lightBlack">
           <Main />
           <NextScript />
         </body>

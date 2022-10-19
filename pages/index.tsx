@@ -1,16 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
+import HomeHero from "@components/HomeHero";
 
 export default function Home() {
     return (
         <>
            <Head>
-               <title>Fairytales Website</title>
+               <title>FairyWeb Home</title>
            </Head>
-            <div style={{height: "500rem"}}>
-
-            </div>
+            <HomeHero/>
         </>
     )
 }
