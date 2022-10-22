@@ -10,7 +10,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-        <link rel="stylesheet" href="https://use.typekit.net/txr6nox.css"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link rel="stylesheet" href="https://use.typekit.net/txr6nox.css"/>
         </Head>
         <body className="bg-lightBlack">
           <Main />
