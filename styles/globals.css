@@ -160,10 +160,13 @@
 
 .timeline-header__title {
     color: #fff;
-    font-size: 46px;
+    font-size: 24px;
     font-family: cormorant-garamond, sans-serif;
     font-weight: normal;
     margin: 0;
+    padding-left: 20rem;
+    padding-right: 20rem;
+
 }
 
 .timeline-header__subtitle {
