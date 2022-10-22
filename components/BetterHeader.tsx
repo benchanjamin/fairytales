@@ -1,3 +1,5 @@
+import {NavLink} from "@components/NavLink";
+
 export default function BetterHeader() {
     return (
         <>
@@ -9,13 +11,12 @@ export default function BetterHeader() {
 
                     <div className="hidden items-center justify-between space-x-30 md:flex text-[28px]
                     mt-[29px] pl-6 pr-6">
-                        {/* Change this color later to reflect active link*/}
-                        <a className="text-lightBlue italic font-medium hover:text-lightBlue duration-75">Home</a>
-                        <a className="text-white italic font-medium hover:text-lightBlue duration-75">Timeline</a>
-                        <a className="text-white italic font-medium hover:text-lightBlue duration-75">Map</a>
-                        <a className="text-white italic font-medium hover:text-lightBlue duration-75">Settings
-                            & Locations</a>
-                        <a className="text-white italic font-medium hover:text-lightBlue duration-75">About</a>
+                        <NavLink href="/" exact className="text-white italic font-medium hover:text-lightBlue duration-75">Home</NavLink>
+                        <NavLink href="/timeline" exact className="text-white italic font-medium hover:text-lightBlue duration-75">Timeline</NavLink>
+                        <NavLink href="/map" exact className="text-white italic font-medium hover:text-lightBlue duration-75">Map</NavLink>
+                        <NavLink href="/settings-and-locations" exact className="text-white italic font-medium hover:text-lightBlue duration-75">Settings
+                            & Locations</NavLink>
+                        <NavLink href="/about" exact className="text-white italic font-medium hover:text-lightBlue duration-75">About</NavLink>
                     </div>
                 </div>
             </nav>

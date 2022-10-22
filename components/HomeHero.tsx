@@ -1,8 +1,5 @@
 import React from 'react';
 import Image from "next/image";
-import image1 from "../public/image1.jpg"
-import image2 from "../public/image2.jpg"
-import image3 from "../public/image3.jpg"
 
 
 function HomeHero(props) {
@@ -21,15 +18,15 @@ function HomeHero(props) {
             <div className="flex flex-col md:flex-row">
                 <div className="w-full md:w-1/3 relative h-[55vh]">
                     <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 35%"} alt={"fairytale"}
-                           src={image1}/>
+                           src="/image1.jpg"/>
                 </div>
                 <div className="w-full md:w-1/3 relative h-[55vh]">
                     <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 20%"} alt={"fairytale"}
-                           src={image2}/>
+                           src="/image2.jpg"/>
                 </div>
                 <div className="w-full md:w-1/3 relative h-[55vh]">
                     <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 0%"} alt={"fairytale"}
-                           src={image3}/>
+                           src="/image3.jpg"/>
                 </div>
             </div>
         </section>
