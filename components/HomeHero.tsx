@@ -18,15 +18,15 @@ function HomeHero(props) {
             <div className="flex flex-col md:flex-row">
                 <div className="w-full md:w-1/3 relative h-[55vh]">
                     <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 35%"} alt={"fairytale"}
-                           src="/image1.jpg"/>
+                           src="/static/image1.jpg" placeholder="blur" blurDataURL="/static/image1.jpg"/>
                 </div>
                 <div className="w-full md:w-1/3 relative h-[55vh]">
                     <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 20%"} alt={"fairytale"}
-                           src="/image2.jpg"/>
+                           src="/static/image2.jpg" placeholder="blur" blurDataURL="/static/image2.jpg"/>
                 </div>
                 <div className="w-full md:w-1/3 relative h-[55vh]">
                     <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 0%"} alt={"fairytale"}
-                           src="/image3.jpg"/>
+                           src="/static/image3.jpg" placeholder="blur" blurDataURL="/static/image3.jpg"/>
                 </div>
             </div>
         </section>
