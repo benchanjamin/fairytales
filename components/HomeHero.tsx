@@ -8,7 +8,7 @@ function HomeHero(props) {
             <div className="container mx-auto relative">
                 {/* Content Words */}
                 <div className="flex justify-center h-[15vh] items-center mx-auto w-[55%] md:h-[35vh] 3xl:w-[80%]">
-                    <h1 className="text-white text-center font-medium text-md md:text-[28px] 3xl:text-[50px]">
+                    <h1 className="text-white text-center font-medium text-[0.875rem] md:text-[28px] 3xl:text-[50px]">
                         Fairy Web is a digital humanities project that includes information and
                         data visualizations about the 19th century British fairy tale.
                     </h1>
@@ -29,7 +29,7 @@ function HomeHero(props) {
                         </div>
                     </div>
                 </div>
-                <div className="w-full md:w-1/3 relative h-[55vh] group">
+                <div className="hidden md:block w-full md:w-1/3 relative h-[55vh] group">
                     <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 20%"} alt={"fairytale"}
                            src="/static/image2.jpg" placeholder="blur" blurDataURL="/static/image2.jpg"/>
                     <div className="absolute top-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-gray-700
@@ -43,7 +43,7 @@ function HomeHero(props) {
                         </div>
                     </div>
                 </div>
-                <div className="w-full md:w-1/3 relative h-[55vh] group">
+                <div className="hidden w-full md:block md:w-1/3 relative h-[55vh] group">
                     <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 0%"} alt={"fairytale"}
                            src="/static/image3.jpg" placeholder="blur" blurDataURL="/static/image3.jpg"/>
                     <div className="absolute top-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-gray-700
