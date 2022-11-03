@@ -13,7 +13,7 @@ export default function BetterHeader() {
 
                         <button
                             id="menu-btn"
-                            className="z-30 block md:hidden focus:outline-none hamburger pr-6"
+                            className="z-30 block md:hidden focus:outline-none hamburger"
                         >
                             <span className="hamburger-top"></span>
                             <span className="hamburger-middle"></span>

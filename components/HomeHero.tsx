@@ -7,8 +7,8 @@ function HomeHero(props) {
         <section id="hero">
             <div className="container mx-auto relative">
                 {/* Content Words */}
-                <div className="flex justify-center h-[15vh] items-center mx-auto w-[55%] md:h-[35vh] 3xl:w-[80%]">
-                    <h1 className="text-white text-center font-medium text-[0.875rem] md:text-[28px] 3xl:text-[50px]">
+                <div className="flex justify-center h-[15vh] items-center mx-auto w-[70%] md:w-[55%] md:h-[35vh] 3xl:w-[80%]">
+                    <h1 className="text-white text-center font-medium text-[1rem] md:text-[28px] 3xl:text-[50px]">
                         Fairy Web is a digital humanities project that includes information and
                         data visualizations about the 19th century British fairy tale.
                     </h1>

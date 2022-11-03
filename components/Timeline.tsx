@@ -3,7 +3,7 @@ import React from 'react';
 function Timeline() {
     return (
         <>
-            <div className="timeline-container" id="timeline-1">
+            <div className="timeline-container mt-5" id="timeline-1">
 
                 <div className="timeline-header">
                     <h2 className="timeline-header__title">  This timeline lists the publication dates for influential and key fairy tale texts, along with other
