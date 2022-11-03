@@ -40,19 +40,20 @@ export default function BetterHeader() {
 
                     <div
                         id="menu"
-                        className="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue"
+                        className="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-lightBlack"
                     >
                         <div className="w-full py-3 text-center">
                             <a href="/" className="block hover:text-softRed">Home</a>
                         </div>
                         <div className="w-full py-3 text-center">
-                            <a href="/timeline" className="block hover:text-softRed">Download</a>
+                            <a href="/timeline" className="block hover:text-softRed">Timeline</a>
                         </div>
                         <div className="w-full py-3 text-center">
-                            <a href="/settings-and-locations" className="block hover:text-softRed">FAQ</a>
+                            <a href="/settings-and-locations" className="block hover:text-softRed">Settings
+                                & Locations</a>
                         </div>
                         <div className="w-full py-3 text-center">
-                            <a href="/about" className="block hover:text-softRed">Login</a>
+                            <a href="/about" className="block hover:text-softRed">About</a>
                         </div>
                     </div>
                 </div>
