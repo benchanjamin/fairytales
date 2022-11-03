@@ -1,4 +1,5 @@
 import {NavLink} from "@components/NavLink";
+import Link from "next/link";
 
 export default function BetterHeader() {
     return (
@@ -43,17 +44,17 @@ export default function BetterHeader() {
                         className="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-lightBlack"
                     >
                         <div className="w-full py-3 text-center">
-                            <a href="/" className="block hover:text-softRed">Home</a>
+                            <Link href="/" className="block hover:text-softRed">Home</Link>
                         </div>
                         <div className="w-full py-3 text-center">
-                            <a href="/timeline" className="block hover:text-softRed">Timeline</a>
+                            <Link href="/timeline" className="block hover:text-softRed">Timeline</Link>
                         </div>
                         <div className="w-full py-3 text-center">
-                            <a href="/settings-and-locations" className="block hover:text-softRed">Settings
-                                & Locations</a>
+                            <Link href="/settings-and-locations" className="block hover:text-softRed">Settings
+                                & Locations</Link>
                         </div>
                         <div className="w-full py-3 text-center">
-                            <a href="/about" className="block hover:text-softRed">About</a>
+                            <Link href="/about" className="block hover:text-softRed">About</Link>
                         </div>
                     </div>
                 </div>
