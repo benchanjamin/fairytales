@@ -22,7 +22,7 @@ export default function BetterHeader() {
                     </div>
 
                     {/* Menu Items */}
-                    <div className="hidden items-center justify-between space-x-30 md:flex text-[28px]
+                    <div className="hidden items-center justify-between space-x-30 md:flex md:text-[24px] text-[28px] xl:text-[32px]
                     md:mt-[15px] pl-6 pr-6">
                         <NavLink href="/" exact
                                  className="text-white italic font-medium hover:text-lightBlue duration-75">Home</NavLink>

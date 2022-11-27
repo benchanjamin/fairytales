@@ -3,7 +3,7 @@ import React from 'react';
 function Timeline() {
     return (
         <>
-            <div className="timeline-container mt-5" id="timeline-1">
+            <div className="mt-6 timeline-container md:mt-8" id="timeline-1">
 
                 <div className="timeline-header">
                     <h2 className="timeline-header__title">  This timeline lists the publication dates for influential and key fairy tale texts, along with other
@@ -19,8 +19,8 @@ function Timeline() {
                 <div className="timeline">
                     <div className="timeline-item" data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className="timeline__content">
-                            <img className="timeline__img"
-                                 src="/giovanni.jpg"/>
+                            {/*<img className="timeline__img"*/}
+                            {/*     src="/giovanni.jpg"/>*/}
                             <h2 className="timeline__content-title">1550-1553</h2>
                             <p className="timeline__content-desc">Giovanni Francesco Straparola
                             </p>
@@ -28,8 +28,8 @@ function Timeline() {
                     </div>
                     <div className="timeline-item" data-text="Il Pentamarone (The Tale of Tales, or Entertainment for Little Ones)">
                         <div className="timeline__content">
-                            <img className="timeline__img"
-                                 src="/giovanni.jpg"/>
+                            {/*<img className="timeline__img"*/}
+                            {/*     src="/giovanni.jpg"/>*/}
                             <h2 className="timeline__content-title">1634-1636</h2>
                             <p className="timeline__content-desc">Giambattista Basile
                             </p>
@@ -37,8 +37,8 @@ function Timeline() {
                     </div>
                     <div className="timeline-item" data-text="Contes de Fées (Tales of the Fairies)">
                         <div className="timeline__content">
-                            <img className="timeline__img"
-                                 src="/giovanni.jpg"/>
+                            {/*<img className="timeline__img"*/}
+                            {/*     src="/giovanni.jpg"/>*/}
                             <h2 className="timeline__content-title">1697</h2>
                             <p className="timeline__content-desc">Marie-Catherine d’Aulnoy
                             </p>
@@ -46,8 +46,8 @@ function Timeline() {
                     </div>
                     <div className="timeline-item" data-text="Histoires ou Contes du Temps Passé (Stories or Tales from Times Past)">
                         <div className="timeline__content">
-                            <img className="timeline__img"
-                                 src="/giovanni.jpg"/>
+                            {/*<img className="timeline__img"*/}
+                            {/*     src="/giovanni.jpg"/>*/}
                             <h2 className="timeline__content-title">1697</h2>
                             <p className="timeline__content-desc">Charles Perrault
                             </p>

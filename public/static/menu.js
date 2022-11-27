@@ -2,7 +2,6 @@ const tabs = document.querySelectorAll('.tab')
 const panels = document.querySelectorAll('.panel')
 const btn = document.getElementById('menu-btn')
 const menu = document.getElementById('menu')
-const logo = document.getElementById('logo')
 
 // Tabs menu event listener
 tabs.forEach((tab) => tab.addEventListener('click', onTabClick))
