@@ -21,63 +21,101 @@ function Timeline() {
                          data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
-                            <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
+                            <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola published
                             </p>
                         </div>
                     </div>
                     <div className={`${classes.timeline_item} hidden_item`}
-                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                         data-text="Il Pentamarone (The Tale of Tales, or Entertainment for Little Ones)">
                         <div className={classes.timeline_content}>
-                            <h2 className={classes.timeline_content_title}>1550-1553</h2>
-                            <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
+                            <h2 className={classes.timeline_content_title}>1634-1636</h2>
+                            <p className={classes.timeline_content_desc}>Giambattista Basile published
                             </p>
                         </div>
                     </div>
                     <div className={`${classes.timeline_item} hidden_item`}
-                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                         data-text="Contes de Fées (Tales of the Fairies)">
                         <div className={classes.timeline_content}>
-                            <h2 className={classes.timeline_content_title}>1550-1553</h2>
-                            <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
+                            <h2 className={classes.timeline_content_title}>1697</h2>
+                            <p className={classes.timeline_content_desc}>Marie-Catherine d’Aulnoy
                             </p>
                         </div>
                     </div>
                     <div className={`${classes.timeline_item} hidden_item`}
-                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                         data-text="Histoires ou Contes du Temps Passé (Stories or Tales from Times Past)">
                         <div className={classes.timeline_content}>
-                            <h2 className={classes.timeline_content_title}>1550-1553</h2>
-                            <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
+                            <h2 className={classes.timeline_content_title}>1697</h2>
+                            <p className={classes.timeline_content_desc}>Charles Perrault
                             </p>
                         </div>
                     </div>
                     <div className={`${classes.timeline_item} hidden_item`}
-                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                         data-text="Contes des Fées">
                         <div className={classes.timeline_content}>
-                            <h2 className={classes.timeline_content_title}>1550-1553</h2>
-                            <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
+                            <h2 className={classes.timeline_content_title}>1699</h2>
+                            <p className={classes.timeline_content_desc}>First translated into English as <i>Tales of
+                                the Fairies</i>, originally authored by D’Aulnoy
                             </p>
                         </div>
                     </div>
                     <div className={`${classes.timeline_item} hidden_item`}
-                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                         data-text="Les Milles et Une Nuits: Contes Arabes">
                         <div className={classes.timeline_content}>
-                            <h2 className={classes.timeline_content_title}>1550-1553</h2>
-                            <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
+                            <h2 className={classes.timeline_content_title}>1704-1717</h2>
+                            <p className={classes.timeline_content_desc}>Antoine Galland’s work begins to circulate in
+                                Europe
                             </p>
                         </div>
                     </div>
                     <div className={`${classes.timeline_item} hidden_item`}
-                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                         data-text="Beauty and the Beast">
                         <div className={classes.timeline_content}>
-                            <h2 className={classes.timeline_content_title}>1550-1553</h2>
-                            <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
+                            <h2 className={classes.timeline_content_title}>1704-1705</h2>
+                            <p className={classes.timeline_content_desc}>Gabrielle-Suzanne Barbot de Villeneuve
                             </p>
                         </div>
                     </div>
                     <div className={`${classes.timeline_item} hidden_item`}
-                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                         data-text="">
                         <div className={classes.timeline_content}>
-                            <h2 className={classes.timeline_content_title}>1550-1553</h2>
-                            <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
+                            <h2 className={classes.timeline_content_title}>1729</h2>
+                            <p className={classes.timeline_content_desc}>Perrault’s works are first translated into
+                                English by Robert Samber
+                            </p>
+                        </div>
+                    </div>
+                    <div className={`${classes.timeline_item_nonitalics} hidden_item`}
+                         data-text="&ldquo;On the Fairies of Popular Superstition&rdquo;">
+                        <div className={classes.timeline_content}>
+                            <h2 className={classes.timeline_content_title}>1802-1803</h2>
+                            <p className={classes.timeline_content_desc}>An essay by Sir Walter Scott in <i>Minstrelsy
+                                of the Scottish Border</i>
+                            </p>
+                        </div>
+                    </div>
+                    <div className={`${classes.timeline_item} hidden_item`}
+                         data-text="Oberon">
+                        <div className={classes.timeline_content}>
+                            <h2 className={classes.timeline_content_title}>1805</h2>
+                            <p className={classes.timeline_content_desc}>Wieland&apos;s work is translated, which inspired
+                                other fairy plays, ballets, and Weber’s opera
+                            </p>
+                        </div>
+                    </div>
+                    <div className={`${classes.timeline_item} hidden_item`}
+                         data-text="Undine">
+                        <div className={classes.timeline_content}>
+                            <h2 className={classes.timeline_content_title}>1811</h2>
+                            <p className={classes.timeline_content_desc}>By Baron de la Motte Fouqué; translated into
+                                English soon after (about an elemental water spirit
+                            </p>
+                        </div>
+                    </div>
+                    <div className={`${classes.timeline_item} hidden_item`}
+                         data-text="Zelis">
+                        <div className={classes.timeline_content}>
+                            <h2 className={classes.timeline_content_title}>1832</h2>
+                            <p className={classes.timeline_content_desc}>A fairy ballet
                             </p>
                         </div>
                     </div>

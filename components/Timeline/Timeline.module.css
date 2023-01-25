@@ -52,10 +52,11 @@
 
 .timeline_item:before {
     content: attr(data-text);
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     width: 100%;
     position: absolute;
     color: #ffffff;
+    font-style: italic;
     font-size: 13px;
     font-family: cormorant-garamond, sans-serif;
     border-left: 2px solid #ffffff;
@@ -68,6 +69,37 @@
 }
 
 .timeline_item {
+    padding: 40px 0;
+    /*opacity: 0.3;*/
+    /*filter: blur(2px);*/
+    transition: 1s;
+    box-sizing: border-box;
+    width: calc(50% - 40px);
+    display: flex;
+    position: relative;
+    top: -80px;
+    justify-content: flex-end;
+}
+
+.timeline_item_nonitalics:before {
+    content: attr(data-text);
+    letter-spacing: 2px;
+    width: 100%;
+    position: absolute;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 13px;
+    font-family: cormorant-garamond, sans-serif;
+    border-left: 2px solid #ffffff;
+    top: 70%;
+    margin-top: -2rem;
+    padding-left: 15px;
+    text-align: left;
+    /*opacity: 0;*/
+    right: calc(-100% - 56px);
+}
+
+.timeline_item_nonitalics {
     padding: 40px 0;
     /*opacity: 0.3;*/
     /*filter: blur(2px);*/
