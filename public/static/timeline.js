@@ -4,6 +4,9 @@ const observer = new IntersectionObserver((entries) => {
             entry.target.classList.remove('hidden_item')
         }
     })
+}, {
+    rootMargin: '0px',
+    threshold: .1,
 })
 
 const hiddenElements = document.querySelectorAll('.hidden_item')
