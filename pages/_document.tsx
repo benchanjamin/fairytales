@@ -13,8 +13,6 @@ class MyDocument extends Document {
                     <link rel="stylesheet" href="https://use.typekit.net/txr6nox.css"/>
                     <script type="text/javascript" src="/static/menu.js" defer>
                     </script>
-                    <script type="text/javascript" src="/static/timeline.js" defer>
-                    </script>
                 </Head>
                 <body className="bg-lightBlack">
                 <Main/>

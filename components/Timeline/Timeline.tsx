@@ -1,9 +1,14 @@
 import React from 'react';
 import classes from "./Timeline.module.css"
+import Head from "next/head";
 
 function Timeline() {
     return (
         <>
+            <Head>
+                <script type="text/javascript" src="/static/timeline.js" defer>
+                </script>
+            </Head>
             <div className={`mt-14 section-container relative`}>
                 <h2 className={classes.timeline_header_title}>
                     This timeline lists the publication dates for influential and key fairy tale texts, along with other

@@ -1,24 +1,18 @@
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            entry.target.classList.remove('hidden_item')
-        }
-    })
-}, {
-    rootMargin: '0px',
-})
-// const observerRight = new IntersectionObserver((entries) => {
-//     entries.forEach((entry) => {
-//         if (entry.isIntersecting) {
-//             entry.target.classList.remove('hidden_item_right')
-//         }
-//     })
-// }, {
-//     rootMargin: '0px',
-//     threshold: .1,
-// })
+if (typeof observer !== 'undefined') {
 
-const hiddenElements = document.querySelectorAll('.hidden_item')
-// const hiddenElementsRight = document.querySelectorAll('.hidden_item_right')
-hiddenElements.forEach((elem) => observer.observe(elem))
-// hiddenElementsRight.forEach((elem) => observerRight.observe(elem))
+} else {
+    let observer;
+    let hiddenElements;
+    observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.remove('hidden_item')
+            }
+        })
+    }, {
+        rootMargin: '0px',
+    })
+    hiddenElements = document.querySelectorAll('.hidden_item')
+    hiddenElements.forEach((elem) => observer.observe(elem))
+}
+
