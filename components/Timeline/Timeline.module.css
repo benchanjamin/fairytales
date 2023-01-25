@@ -72,7 +72,7 @@
     padding: 40px 0;
     /*opacity: 0.3;*/
     /*filter: blur(2px);*/
-    transition: 1s;
+    transition: 0.7s ease-in;
     box-sizing: border-box;
     width: calc(50% - 40px);
     display: flex;
@@ -103,7 +103,7 @@
     padding: 40px 0;
     /*opacity: 0.3;*/
     /*filter: blur(2px);*/
-    transition: 1s;
+    transition: 0.7s ease-in;
     box-sizing: border-box;
     width: calc(50% - 40px);
     display: flex;
