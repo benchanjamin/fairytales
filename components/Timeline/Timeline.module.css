@@ -120,12 +120,13 @@
 .timeline_item:nth-child(even):before {
     right: auto;
     text-align: right;
-    left: calc(-100% - 56px);
+    left: calc(-130% - 56px);
     padding-left: 0;
     border-left: none;
     text-align: right;
     border-right: 2px solid #ffffff;
     padding-right: 15px;
+    width: 130%;
 }
 
 .timeline_content_title {
