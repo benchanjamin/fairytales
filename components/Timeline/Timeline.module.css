@@ -34,6 +34,7 @@
 .timeline:before {
     position: absolute;
     left: 50%;
+    top: -2px;
     width: 2px;
     height: 100%;
     margin-left: -1px;
