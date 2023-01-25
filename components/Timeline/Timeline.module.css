@@ -53,11 +53,11 @@
 .timeline_item:before {
     content: attr(data-text);
     letter-spacing: 2px;
-    width: 100%;
+    width: 180%;
     position: absolute;
     color: #ffffff;
     font-style: italic;
-    font-size: 13px;
+    font-size: 16px;
     font-family: cormorant-garamond, sans-serif;
     border-left: 2px solid #ffffff;
     top: 70%;
@@ -65,11 +65,11 @@
     padding-left: 15px;
     text-align: left;
     /*opacity: 0;*/
-    right: calc(-100% - 56px);
+    right: calc(-180% - 56px);
 }
 
 .timeline_item {
-    padding: 40px 0;
+    padding: 34px 0;
     /*opacity: 0.3;*/
     /*filter: blur(2px);*/
     transition: 0.7s ease-in;
@@ -84,11 +84,11 @@
 .timeline_item_nonitalics:before {
     content: attr(data-text);
     letter-spacing: 2px;
-    width: 100%;
+    width: 180%;
     position: absolute;
     color: #ffffff;
     font-style: normal;
-    font-size: 13px;
+    font-size: 16px;
     font-family: cormorant-garamond, sans-serif;
     border-left: 2px solid #ffffff;
     top: 70%;
@@ -96,11 +96,11 @@
     padding-left: 15px;
     text-align: left;
     /*opacity: 0;*/
-    right: calc(-100% - 56px);
+    right: calc(-180% - 56px);
 }
 
 .timeline_item_nonitalics {
-    padding: 40px 0;
+    padding: 34px 0;
     /*opacity: 0.3;*/
     /*filter: blur(2px);*/
     transition: 0.7s ease-in;
@@ -120,18 +120,18 @@
 .timeline_item:nth-child(even):before {
     right: auto;
     text-align: right;
-    left: calc(-130% - 56px);
+    left: calc(-180% - 56px);
     padding-left: 0;
     border-left: none;
     text-align: right;
     border-right: 2px solid #ffffff;
     padding-right: 15px;
-    width: 130%;
+    width: 180%;
 }
 
 .timeline_content_title {
     font-weight: normal;
-    font-size: 66px;
+    font-size: 50px;
     margin: -10px 0 0 0;
     /*transition: 0.4s;*/
     padding: 0 10px;
@@ -142,7 +142,7 @@
 
 .timeline_content_desc {
     margin: 0;
-    font-size: 15px;
+    font-size: 18px;
     box-sizing: border-box;
     color: #ffffff;
     font-family: cormorant-garamond, sans-serif;
