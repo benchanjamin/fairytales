@@ -6,7 +6,7 @@ const observer = new IntersectionObserver((entries) => {
     })
 }, {
     rootMargin: '0px',
-    threshold: .1,
+    threshold: .9,
 })
 // const observerRight = new IntersectionObserver((entries) => {
 //     entries.forEach((entry) => {
