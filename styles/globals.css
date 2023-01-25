@@ -69,17 +69,17 @@
 }
 
 /* Utility classes */
-/*.hidden_item {*/
-/*    opacity: 0;*/
-/*    transform: translateX(-100%);*/
-/*    filter: blur(5px);*/
-/*}*/
+.hidden_item {
+    opacity: 0;
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
 
-/*.hidden_item:nth-child(even) {*/
-/*    opacity: 0;*/
-/*    transform: translateX(100%);*/
-/*    filter: blur(5px);*/
-/*}*/
+.hidden_item:nth-child(even) {
+    opacity: 0;
+    transform: translateX(100%);
+    filter: blur(5px);
+}
 
 @media(prefers-reduced-motion) {
     .hidden_item {

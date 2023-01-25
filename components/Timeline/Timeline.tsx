@@ -12,56 +12,64 @@ function Timeline() {
                     digital humanities project.
                 </h2>
                 <div className={`${classes.timeline}`}>
-                    <div className={`${classes.timeline_item} hidden_item`} data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                    <div className={`${classes.timeline_item} hidden_item`}
+                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
                             <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
                             </p>
                         </div>
                     </div>
-                    <div className={`${classes.timeline_item} hidden_item`} data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                    <div className={`${classes.timeline_item} hidden_item`}
+                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
                             <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
                             </p>
                         </div>
                     </div>
-                    <div className={`${classes.timeline_item} hidden_item`} data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                    <div className={`${classes.timeline_item} hidden_item`}
+                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
                             <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
                             </p>
                         </div>
                     </div>
-                    <div className={`${classes.timeline_item} hidden_item`} data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                    <div className={`${classes.timeline_item} hidden_item`}
+                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
                             <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
                             </p>
                         </div>
                     </div>
-                    <div className={`${classes.timeline_item} hidden_item`} data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                    <div className={`${classes.timeline_item} hidden_item`}
+                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
                             <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
                             </p>
                         </div>
                     </div>
-                    <div className={`${classes.timeline_item} hidden_item`} data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                    <div className={`${classes.timeline_item} hidden_item`}
+                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
                             <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
                             </p>
                         </div>
                     </div>
-                    <div className={`${classes.timeline_item} hidden_item`} data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                    <div className={`${classes.timeline_item} hidden_item`}
+                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
                             <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
                             </p>
                         </div>
                     </div>
-                    <div className={`${classes.timeline_item} hidden_item`} data-text="Le Piacevoli Notte (The Pleasant Nights)">
+                    <div className={`${classes.timeline_item} hidden_item`}
+                         data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
                             <p className={classes.timeline_content_desc}>Giovanni Francesco Straparola
