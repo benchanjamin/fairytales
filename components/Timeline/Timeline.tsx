@@ -20,7 +20,7 @@ function Timeline() {
                             </p>
                         </div>
                     </div>
-                    <div className={`${classes.timeline_item} hidden_item_right`}
+                    <div className={`${classes.timeline_item} hidden_item`}
                          data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
@@ -36,7 +36,7 @@ function Timeline() {
                             </p>
                         </div>
                     </div>
-                    <div className={`${classes.timeline_item} hidden_item_right`}
+                    <div className={`${classes.timeline_item} hidden_item`}
                          data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
@@ -52,7 +52,7 @@ function Timeline() {
                             </p>
                         </div>
                     </div>
-                    <div className={`${classes.timeline_item} hidden_item_right`}
+                    <div className={`${classes.timeline_item} hidden_item`}
                          data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
@@ -68,7 +68,7 @@ function Timeline() {
                             </p>
                         </div>
                     </div>
-                    <div className={`${classes.timeline_item} hidden_item_right`}
+                    <div className={`${classes.timeline_item} hidden_item`}
                          data-text="Le Piacevoli Notte (The Pleasant Nights)">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1550-1553</h2>
