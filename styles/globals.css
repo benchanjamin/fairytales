@@ -75,7 +75,7 @@
     filter: blur(5px);
 }
 
-.hidden_item:nth-child(even) {
+.hidden_item_right {
     opacity: 0;
     transform: translateX(100%);
     filter: blur(5px);
