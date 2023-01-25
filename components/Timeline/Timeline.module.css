@@ -34,7 +34,7 @@
 .timeline:before {
     position: absolute;
     left: 50%;
-    top: -2px;
+    top: -12px;
     width: 2px;
     height: 100%;
     margin-left: -1px;
@@ -54,7 +54,7 @@
 .timeline_item:before {
     content: attr(data-text);
     letter-spacing: 2px;
-    width: 180%;
+    width: 100%;
     position: absolute;
     color: #ffffff;
     font-style: italic;
@@ -66,7 +66,7 @@
     padding-left: 15px;
     text-align: left;
     /*opacity: 0;*/
-    right: calc(-180% - 56px);
+    right: calc(-100% - 56px);
 }
 
 .timeline_item {
@@ -85,7 +85,7 @@
 .timeline_item_nonitalics:before {
     content: attr(data-text);
     letter-spacing: 2px;
-    width: 180%;
+    width: 100%;
     position: absolute;
     color: #ffffff;
     font-style: normal;
@@ -97,7 +97,7 @@
     padding-left: 15px;
     text-align: left;
     /*opacity: 0;*/
-    right: calc(-180% - 56px);
+    right: calc(-100% - 56px);
 }
 
 .timeline_item_nonitalics {
@@ -121,19 +121,19 @@
 .timeline_item:nth-child(even):before {
     right: auto;
     text-align: right;
-    left: calc(-180% - 56px);
+    left: calc(-100% - 56px);
     padding-left: 0;
     border-left: none;
-    text-align: right;
     border-right: 2px solid #ffffff;
     padding-right: 15px;
-    width: 180%;
+    width: 100%;
 }
 
 .timeline_content_title {
     font-weight: normal;
     font-size: 50px;
-    margin: -10px 0 0 0;
+    margin: -10px 0 10px 0;
+    line-height: 50px;
     /*transition: 0.4s;*/
     padding: 0 10px;
     box-sizing: border-box;
@@ -151,7 +151,7 @@
     line-height: 25px;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 460px) {
     .timeline_content {
         margin: 100px 0 0 0;
     }
@@ -167,6 +167,37 @@
         line-height: 1rem;
     }
 
+    .timeline_item {
+        padding: 60px 0;
+    }
+
+    .timeline_item:nth-child(even):before {
+        left: calc(-140% - 56px);
+        width: 140%;
+    }
+
+    .timeline_item_nonitalics:nth-child(even):before {
+        left: calc(-140% - 56px);
+        width: 140%;
+    }
+
+    .timeline_item_nonitalics:before {
+        width: 140%;
+        right: calc(-140% - 56px);
+    }
+
+    .timeline_item:before {
+        width: 140%;
+        right: calc(-140% - 56px);
+        /*font-size: 12px;*/
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    /*.timeline_content_title {*/
+    /*    font-size: 40px;*/
+    /*    line-height: 40px;*/
+    /*}*/
 }
 
 

@@ -11,7 +11,7 @@ if (typeof observer !== 'undefined') {
         })
     }, {
         rootMargin: '0px',
-        threshold: 0.70
+        // threshold: 0.70
     })
     hiddenElements = document.querySelectorAll('.hidden_item')
     hiddenElements.forEach((elem) => observer.observe(elem))
