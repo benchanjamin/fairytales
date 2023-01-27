@@ -30,9 +30,9 @@ export default function BetterHeader() {
                                  className="text-white italic font-medium hover:text-lightBlue duration-75">Timeline</NavLink>
                         <NavLink href="/map" exact
                                  className="text-white italic font-medium hover:text-lightBlue duration-75">Map</NavLink>
-                        <NavLink href="/settings-and-locations" exact
-                                 className="text-white italic font-medium hover:text-lightBlue duration-75">Settings
-                            & Locations</NavLink>
+                        {/*<NavLink href="/settings-and-locations" exact*/}
+                        {/*         className="text-white italic font-medium hover:text-lightBlue duration-75">Settings*/}
+                        {/*    & Locations</NavLink>*/}
                         <NavLink href="/about" exact
                                  className="text-white italic font-medium hover:text-lightBlue duration-75">About</NavLink>
 
