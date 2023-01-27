@@ -1,14 +1,11 @@
 import React from 'react';
 import classes from "./Timeline.module.css"
-import Head from "next/head";
+import Script from "next/script";
 
 function Timeline() {
     return (
         <>
-            <Head>
-                <script type="text/javascript" src="/static/timeline.js" defer>
-                </script>
-            </Head>
+            <Script type="text/javascript" src="/static/timeline.js"/>
             <div className={`mt-14 section-container relative`}>
                 <h2 className={classes.timeline_header_title}>
                     This timeline lists the publication dates for influential and key fairy tale texts, along with other
@@ -97,7 +94,8 @@ function Timeline() {
                          data-text="Oberon">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1805</h2>
-                            <p className={classes.timeline_content_desc}>Wieland&apos;s work is translated, which inspired
+                            <p className={classes.timeline_content_desc}>Wieland&apos;s work is translated, which
+                                inspired
                                 other fairy plays, ballets, and Weber’s opera
                             </p>
                         </div>
