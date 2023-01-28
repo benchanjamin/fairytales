@@ -1,11 +1,27 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import classes from "./Timeline.module.css"
+import Head from "next/head";
 import Script from "next/script";
 
 function Timeline() {
+    useEffect(() => {
+        let observer;
+        let hiddenElements;
+        observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('hidden_item')
+                }
+            })
+        }, {
+            rootMargin: '0px',
+            // threshold: 0.70
+        })
+        hiddenElements = document.querySelectorAll('.hidden_item')
+        hiddenElements.forEach((elem) => observer.observe(elem))
+    }, [])
     return (
         <>
-            <Script type="text/javascript" src="/static/timeline.js"/>
             <div className={`mt-14 section-container relative`}>
                 <h2 className={classes.timeline_header_title}>
                     This timeline lists the publication dates for influential and key fairy tale texts, along with other
@@ -94,8 +110,7 @@ function Timeline() {
                          data-text="Oberon">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1805</h2>
-                            <p className={classes.timeline_content_desc}>Wieland&apos;s work is translated, which
-                                inspired
+                            <p className={classes.timeline_content_desc}>Wieland&apos;s work is translated, which inspired
                                 other fairy plays, ballets, and Weber’s opera
                             </p>
                         </div>

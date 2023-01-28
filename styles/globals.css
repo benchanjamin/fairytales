@@ -81,8 +81,52 @@
 /*    filter: blur(5px);*/
 /*}*/
 
-@media(prefers-reduced-motion) {
+@media (prefers-reduced-motion) {
     .hidden_item {
         transition: none;
     }
 }
+
+/* End Utility classes */
+
+/* Map classes */
+svg {
+    border: solid 1px gray;
+    margin: 0 auto;
+}
+
+.country {
+    fill: gray;
+    stroke: white;
+    stroke-width: .5;
+}
+
+.graticule {
+    fill: none;
+    stroke: green;
+    stroke-width: .25
+}
+
+.city circle {
+    fill: yellow;
+    stroke: black;
+    stroke-width: 0.3;
+    opacity: 0.6;
+}
+
+#tooltip {
+    pointer-events: none;
+    width: auto;
+}
+#tooltip rect {
+    fill: white;
+    fill-opacity: .9;
+    stroke: black;
+    stroke-width: .5;
+}
+#tooltip text {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 12px;
+    text-anchor: middle;
+}
+/* End Map classes */

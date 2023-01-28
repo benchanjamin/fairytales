@@ -1,0 +1,3029 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.5245,50.8503 ]
+    },
+    "properties": {
+    "original_":70,
+    "original_text":"Bulverhythe",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"50.8503, 0.5245"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.0828,51.2798 ]
+    },
+    "properties": {
+    "original_":86,
+    "original_text":"Canterbury Bells",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.2798, 1.0828"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.3134,51.1279 ]
+    },
+    "properties": {
+    "original_":165,
+    "original_text":"Dover",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.1279, 1.3134"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.9904977,51.0251985 ]
+    },
+    "properties": {
+    "original_":168,
+    "original_text":"Dymchurch",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.0251985, 0.9904977"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.997687,51.029665 ]
+    },
+    "properties": {
+    "original_":169,
+    "original_text":"Dymchurch Flit",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.029665, 0.997687"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.03661375,51.0489393 ]
+    },
+    "properties": {
+    "original_":170,
+    "original_text":"Dymchurch Wall",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.0489393, 1.03661375"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":191,
+    "original_text":"England",
+    "original_count":3,
+    "original_total_count":35,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.0,51.0 ]
+    },
+    "properties": {
+    "original_":204,
+    "original_text":"Europe",
+    "original_count":1,
+    "original_total_count":4,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.0, 10.0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2137,46.2276 ]
+    },
+    "properties": {
+    "original_":232,
+    "original_text":"France",
+    "original_count":2,
+    "original_total_count":6,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"46.2276, 2.2137"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":384,
+    "original_text":"Merry England",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":418,
+    "original_text":"Old England",
+    "original_count":5,
+    "original_total_count":5,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.68913,50.97262 ]
+    },
+    "properties": {
+    "original_":486,
+    "original_text":"Peasmarsh Fair",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.group",
+    "lat_long_coordinates":"50.97262, 0.68913"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.1427,50.3755 ]
+    },
+    "properties": {
+    "original_":508,
+    "original_text":"Plymouth",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"50.3755, -4.1427"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.4686815,50.9855542 ]
+    },
+    "properties": {
+    "original_":537,
+    "original_text":"Robertsbridge",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"50.9855542, 0.4686815"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.9479272429,50.98842465 ]
+    },
+    "properties": {
+    "original_":547,
+    "original_text":"Romney Marsh",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"50.98842465, 0.9479272429"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.7373,50.9497 ]
+    },
+    "properties": {
+    "original_":571,
+    "original_text":"Rye",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"dymchurch_flit",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"50.9497, 0.7373"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4515,51.1657 ]
+    },
+    "properties": {
+    "original_":249,
+    "original_text":"Germany",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"kind_little_edmund",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.1657, 10.4515"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.0984,51.5138 ]
+    },
+    "properties": {
+    "original_":627,
+    "original_text":"St. Paul",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"kind_little_edmund",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.5138, -0.0984"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 134.755,-24.7761086 ]
+    },
+    "properties": {
+    "original_":32,
+    "original_text":"Australia",
+    "original_count":1,
+    "original_total_count":4,
+    "original_book_title":"melisande",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"-24.7761086, 134.755"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.3047,50.6938 ]
+    },
+    "properties": {
+    "original_":325,
+    "original_text":"Isle of Wight",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"melisande",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"50.6938, -1.3047"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.934,4.15 ]
+    },
+    "properties": {
+    "original_":369,
+    "original_text":"Malay Peninsula",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"melisande",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"4.15, 101.934"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.966553989,53.4152268 ]
+    },
+    "properties": {
+    "original_":318,
+    "original_text":"Ireland",
+    "original_count":1,
+    "original_total_count":3,
+    "original_book_title":"murdochs_rath",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"53.4152268, -7.966553989"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 26.95669,36.70206 ]
+    },
+    "properties": {
+    "original_":351,
+    "original_text":"Lathra",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"phantasmion",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"36.70206, 26.95669"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77.5354,12.9756 ]
+    },
+    "properties": {
+    "original_":53,
+    "original_text":"Bisnagar",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_prigio",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"12.9756, 77.5354"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.7782694,53.5643139 ]
+    },
+    "properties": {
+    "original_":212,
+    "original_text":"Falkenstein",
+    "original_count":11,
+    "original_total_count":11,
+    "original_book_title":"prince_prigio",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"53.5643139, 9.7782694"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4707609,49.4749834 ]
+    },
+    "properties": {
+    "original_":254,
+    "original_text":"Gluckstein",
+    "original_count":7,
+    "original_total_count":7,
+    "original_book_title":"prince_prigio",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"49.4749834, 8.4707609"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -102.5528,23.6345 ]
+    },
+    "properties": {
+    "original_":387,
+    "original_text":"Mexico",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"prince_prigio",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"23.6345, -102.5528"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 24.991639,-28.8166236 ]
+    },
+    "properties": {
+    "original_":614,
+    "original_text":"South Africa",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_prigio",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"-28.8166236, 24.991639"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 17.7578122,11.5024338 ]
+    },
+    "properties": {
+    "original_":4,
+    "original_text":"Africa",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"11.5024338, 17.7578122"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 89.2343748,51.2086975 ]
+    },
+    "properties": {
+    "original_":27,
+    "original_text":"Asia",
+    "original_count":3,
+    "original_total_count":4,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.2086975, 89.2343748"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 33.99381559,43.87280435 ]
+    },
+    "properties": {
+    "original_":56,
+    "original_text":"Black Sea",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"43.87280435, 33.99381559"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1280177218,51.51929365 ]
+    },
+    "properties": {
+    "original_":66,
+    "original_text":"British Museum",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.51929365, -0.1280177218"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.8676621,39.4009215 ]
+    },
+    "properties": {
+    "original_":98,
+    "original_text":"Central Asia",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"39.4009215, 72.8676621"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.999927,35.000074 ]
+    },
+    "properties": {
+    "original_":102,
+    "original_text":"China",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"35.000074, 104.999927"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 15.5446,41.4622 ]
+    },
+    "properties": {
+    "original_":153,
+    "original_text":"Daunia",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"41.4622, 15.5446"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.127,51.5194 ]
+    },
+    "properties": {
+    "original_":155,
+    "original_text":"Delhi",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.5194, 0.127"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":192,
+    "original_text":"England",
+    "original_count":10,
+    "original_total_count":35,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 38.6521203,10.2116702 ]
+    },
+    "properties": {
+    "original_":203,
+    "original_text":"Ethiopia",
+    "original_count":3,
+    "original_total_count":3,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"10.2116702, 38.6521203"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.0,51.0 ]
+    },
+    "properties": {
+    "original_":205,
+    "original_text":"Europe",
+    "original_count":1,
+    "original_total_count":4,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.0, 10.0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2137,46.2276 ]
+    },
+    "properties": {
+    "original_":233,
+    "original_text":"France",
+    "original_count":1,
+    "original_total_count":6,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"46.2276, 2.2137"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.5714,41.2107 ]
+    },
+    "properties": {
+    "original_":240,
+    "original_text":"Gaeta",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"41.2107, 13.5714"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.891171717,56.74123355 ]
+    },
+    "properties": {
+    "original_":248,
+    "original_text":"German Ocean",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"56.74123355, 2.891171717"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.4411,57.2396 ]
+    },
+    "properties": {
+    "original_":29,
+    "original_text":"Gortuleg",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"57.2396, -4.4411"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.732,52.3759 ]
+    },
+    "properties": {
+    "original_":287,
+    "original_text":"Hannover",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3759, 9.732"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.732,52.3759 ]
+    },
+    "properties": {
+    "original_":288,
+    "original_text":"Hanover",
+    "original_count":4,
+    "original_total_count":4,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3759, 9.732"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.5674,41.8719 ]
+    },
+    "properties": {
+    "original_":326,
+    "original_text":"Italy",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"41.8719, 12.5674"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 16.8719,41.1171 ]
+    },
+    "properties": {
+    "original_":329,
+    "original_text":"Jaunia",
+    "original_count":3,
+    "original_total_count":3,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"41.1171, 16.8719"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.4618,31.8611 ]
+    },
+    "properties": {
+    "original_":330,
+    "original_text":"Jericho",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"31.8611, 35.4618"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.1276,51.5072 ]
+    },
+    "properties": {
+    "original_":343,
+    "original_text":"LONDON",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.5072, 0.1276"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.1276,51.5072 ]
+    },
+    "properties": {
+    "original_":356,
+    "original_text":"London",
+    "original_count":2,
+    "original_total_count":35,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.5072, 0.1276"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 28.1123,40.6681 ]
+    },
+    "properties": {
+    "original_":373,
+    "original_text":"Marmora (Sea of Marmara)",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"40.6681, 28.1123"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -60.74120927,5.19387475 ]
+    },
+    "properties": {
+    "original_":390,
+    "original_text":"Mount Roraima",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"5.19387475, -60.74120927"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2577,51.752 ]
+    },
+    "properties": {
+    "original_":426,
+    "original_text":"Oxford",
+    "original_count":1,
+    "original_total_count":3,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.752, -1.2577"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.5085,8.7832 ]
+    },
+    "properties": {
+    "original_":448,
+    "original_text":"Pacific",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"8.7832, -124.5085"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.0152,9.19 ]
+    },
+    "properties": {
+    "original_":501,
+    "original_text":"Peru",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"9.19, -75.0152"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4964,41.9028 ]
+    },
+    "properties": {
+    "original_":544,
+    "original_text":"Rome",
+    "original_count":8,
+    "original_total_count":10,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"41.9028, 12.4964"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 97.7453061,64.6863136 ]
+    },
+    "properties": {
+    "original_":570,
+    "original_text":"Russia",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"64.6863136, 97.7453061"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026,56.4907 ]
+    },
+    "properties": {
+    "original_":587,
+    "original_text":"Scotland",
+    "original_count":1,
+    "original_total_count":4,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"56.4907, -4.2026"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.0006565,-21.0002179 ]
+    },
+    "properties": {
+    "original_":615,
+    "original_text":"South America",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"-21.0002179, -61.0006565"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.7943,56.3417 ]
+    },
+    "properties": {
+    "original_":623,
+    "original_text":"St. Andrew's",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"56.3417, -2.7943"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1378,51.5046 ]
+    },
+    "properties": {
+    "original_":626,
+    "original_text":"St. James's Palace",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.5046, -0.1378"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.48484394,41.9144111 ]
+    },
+    "properties": {
+    "original_":707,
+    "original_text":"Villa Borghese",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"prince_ricardo_of_pantouflia",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"41.9144111, 12.48484394"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.9057,41.5976 ]
+    },
+    "properties": {
+    "original_":16,
+    "original_text":"Aragon",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"41.5976, -0.9057"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.4378,50.0755 ]
+    },
+    "properties": {
+    "original_":60,
+    "original_text":"Bohemia",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"50.0755, 14.4378"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6894,42.3505 ]
+    },
+    "properties": {
+    "original_":71,
+    "original_text":"Burgos",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"42.3505, -3.6894"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":193,
+    "original_text":"England",
+    "original_count":2,
+    "original_total_count":35,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.0,51.0 ]
+    },
+    "properties": {
+    "original_":206,
+    "original_text":"Europe",
+    "original_count":1,
+    "original_total_count":4,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.0, 10.0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.6995,48.4021 ]
+    },
+    "properties": {
+    "original_":224,
+    "original_text":"Fontainebleau",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"48.4021, 2.6995"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2137,46.2276 ]
+    },
+    "properties": {
+    "original_":234,
+    "original_text":"France",
+    "original_count":1,
+    "original_total_count":6,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"46.2276, 2.2137"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5984,37.1775 ]
+    },
+    "properties": {
+    "original_":267,
+    "original_text":"Granada",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"37.1775, -3.5984"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6883,40.405 ]
+    },
+    "properties": {
+    "original_":344,
+    "original_text":"La Atocha",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"40.405, -3.6883"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5866331,-33.49925 ]
+    },
+    "properties": {
+    "original_":350,
+    "original_text":"Las - Torres",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"-33.49925, -70.5866331"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7035825,40.4167047 ]
+    },
+    "properties": {
+    "original_":367,
+    "original_text":"Madrid",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"40.4167047, -3.7035825"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -102.5528,23.6345 ]
+    },
+    "properties": {
+    "original_":388,
+    "original_text":"Mexico",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"23.6345, -102.5528"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.2913,52.1326 ]
+    },
+    "properties": {
+    "original_":405,
+    "original_text":"Netherlands",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.1326, 5.2913"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.0917068,41.1619872 ]
+    },
+    "properties": {
+    "original_":583,
+    "original_text":"Saragossa",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"41.1619872, 1.0917068"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.9845,37.3891 ]
+    },
+    "properties": {
+    "original_":595,
+    "original_text":"Seville",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"37.3891, -5.9845"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7492,40.4637 ]
+    },
+    "properties": {
+    "original_":619,
+    "original_text":"Spain",
+    "original_count":8,
+    "original_total_count":8,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"40.4637, -3.7492"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.5284238,21.6684 ]
+    },
+    "properties": {
+    "original_":671,
+    "original_text":"Tierra - Nueva",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"21.6684, -100.5284238"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.0273,39.8628 ]
+    },
+    "properties": {
+    "original_":676,
+    "original_text":"Toledo",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_birthday_of_the_infanta",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"39.8628, -4.0273"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "original_":20,
+    "original_text":"Arecarp",
+    "original_count":4,
+    "original_total_count":4,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"nan, nan"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.918023495,54.31536155 ]
+    },
+    "properties": {
+    "original_":64,
+    "original_text":"Britain",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"54.31536155, -1.918023495"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4333,53.55 ]
+    },
+    "properties": {
+    "original_":65,
+    "original_text":"British Islands",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"53.55, -2.4333"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 29.2675469,26.2540493 ]
+    },
+    "properties": {
+    "original_":181,
+    "original_text":"Egypt",
+    "original_count":1,
+    "original_total_count":14,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"26.2540493, 29.2675469"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":194,
+    "original_text":"England",
+    "original_count":6,
+    "original_total_count":35,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2137,46.2276 ]
+    },
+    "properties": {
+    "original_":242,
+    "original_text":"Gaul",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"46.2276, 2.2137"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.8243,39.0742 ]
+    },
+    "properties": {
+    "original_":273,
+    "original_text":"Greece",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"39.0742, 21.8243"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.9629,20.5937 ]
+    },
+    "properties": {
+    "original_":315,
+    "original_text":"India",
+    "original_count":29,
+    "original_total_count":32,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"20.5937, 78.9629"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.966553989,53.4152268 ]
+    },
+    "properties": {
+    "original_":319,
+    "original_text":"Ireland",
+    "original_count":1,
+    "original_total_count":3,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"53.4152268, -7.966553989"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.1933,51.501 ]
+    },
+    "properties": {
+    "original_":334,
+    "original_text":"Kensington",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.501, 0.1933"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.1276,51.5072 ]
+    },
+    "properties": {
+    "original_":357,
+    "original_text":"London",
+    "original_count":23,
+    "original_total_count":35,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.5072, 0.1276"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 43.4837,34.5338 ]
+    },
+    "properties": {
+    "original_":386,
+    "original_text":"Mesopotamia",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"34.5338, 43.4837"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 30.967,21.5 ]
+    },
+    "properties": {
+    "original_":416,
+    "original_text":"Nubia",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"21.5, 30.967"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 39.0243,36.8631 ]
+    },
+    "properties": {
+    "original_":449,
+    "original_text":"Padan - Aram",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"36.8631, 39.0243"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4964,41.9028 ]
+    },
+    "properties": {
+    "original_":545,
+    "original_text":"Rome",
+    "original_count":1,
+    "original_total_count":10,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"41.9028, 12.4964"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.417819,28.300208 ]
+    },
+    "properties": {
+    "original_":675,
+    "original_text":"To Arecarp",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_brown_owl",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"28.300208, -81.417819"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":195,
+    "original_text":"England",
+    "original_count":2,
+    "original_total_count":35,
+    "original_book_title":"the_deliverers_of_their_country",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.0763,53.0685 ]
+    },
+    "properties": {
+    "original_":605,
+    "original_text":"Snowdon",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_deliverers_of_their_country",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"53.0685, -4.0763"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.126354,51.476563 ]
+    },
+    "properties": {
+    "original_":617,
+    "original_text":"South Lambeth Infirmary",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_deliverers_of_their_country",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.476563, -0.126354"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2137,46.2276 ]
+    },
+    "properties": {
+    "original_":235,
+    "original_text":"France",
+    "original_count":1,
+    "original_total_count":6,
+    "original_book_title":"the_devoted_friend",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"46.2276, 2.2137"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.826183,51.1788293 ]
+    },
+    "properties": {
+    "original_":640,
+    "original_text":"Stonehenge",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_fiddler_in_the_fairy_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.1788293, -1.826183"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1165954768,51.50826345 ]
+    },
+    "properties": {
+    "original_":710,
+    "original_text":"Waterloo Bridge",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_fiery_dragon",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.50826345, -0.1165954768"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 29.2675469,26.2540493 ]
+    },
+    "properties": {
+    "original_":182,
+    "original_text":"Egypt",
+    "original_count":1,
+    "original_total_count":14,
+    "original_book_title":"the_fisherman_and_his_soul",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"26.2540493, 29.2675469"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 39.8579,21.3891 ]
+    },
+    "properties": {
+    "original_":378,
+    "original_text":"Mecca",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_fisherman_and_his_soul",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"21.3891, 39.8579"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 38.9968,34.8021 ]
+    },
+    "properties": {
+    "original_":651,
+    "original_text":"Syria",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_fisherman_and_his_soul",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"34.8021, 38.9968"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 66.9237,48.0196 ]
+    },
+    "properties": {
+    "original_":659,
+    "original_text":"Tartars",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_fisherman_and_his_soul",
+    "original_supersense_category":"noun.group",
+    "lat_long_coordinates":"48.0196, 66.9237"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.2038,33.2705 ]
+    },
+    "properties": {
+    "original_":691,
+    "original_text":"Tyre",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_fisherman_and_his_soul",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"33.2705, 35.2038"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 36.211,34.0047 ]
+    },
+    "properties": {
+    "original_":44,
+    "original_text":"Baalbec",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_happy_prince",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"34.0047, 36.211"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 29.2675469,26.2540493 ]
+    },
+    "properties": {
+    "original_":183,
+    "original_text":"Egypt",
+    "original_count":10,
+    "original_total_count":14,
+    "original_book_title":"the_happy_prince",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"26.2540493, 29.2675469"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.0,51.0 ]
+    },
+    "properties": {
+    "original_":207,
+    "original_text":"Europe",
+    "original_count":1,
+    "original_total_count":4,
+    "original_book_title":"the_happy_prince",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.0, 10.0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.9629,20.5937 ]
+    },
+    "properties": {
+    "original_":316,
+    "original_text":"India",
+    "original_count":1,
+    "original_total_count":32,
+    "original_book_title":"the_happy_prince",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"20.5937, 78.9629"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 31.1325,29.9773 ]
+    },
+    "properties": {
+    "original_":514,
+    "original_text":"Pyramids",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_happy_prince",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"29.9773, 31.1325"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.0385,52.4042 ]
+    },
+    "properties": {
+    "original_":582,
+    "original_text":"Sans - Souci",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_happy_prince",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.4042, 13.0385"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.114,76.2506 ]
+    },
+    "properties": {
+    "original_":17,
+    "original_text":"Arctic",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"the_ice_dragon",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"76.2506, -100.114"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.114,76.2506 ]
+    },
+    "properties": {
+    "original_":18,
+    "original_text":"Arctic regions",
+    "original_count":3,
+    "original_total_count":3,
+    "original_book_title":"the_ice_dragon",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"76.2506, -100.114"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.0758,51.4222 ]
+    },
+    "properties": {
+    "original_":147,
+    "original_text":"Crystal Palace",
+    "original_count":7,
+    "original_total_count":7,
+    "original_book_title":"the_ice_dragon",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.4222, 0.0758"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.514766902,54.23592075 ]
+    },
+    "properties": {
+    "original_":324,
+    "original_text":"Isle of Man",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_ice_dragon",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"54.23592075, -4.514766902"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.1276,51.5072 ]
+    },
+    "properties": {
+    "original_":358,
+    "original_text":"London",
+    "original_count":1,
+    "original_total_count":35,
+    "original_book_title":"the_ice_dragon",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.5072, 0.1276"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -135.0,90.0 ]
+    },
+    "properties": {
+    "original_":399,
+    "original_text":"NORTH POLE",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_ice_dragon",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"90.0, -135.0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -135.0,90.0 ]
+    },
+    "properties": {
+    "original_":412,
+    "original_text":"North Pole",
+    "original_count":23,
+    "original_total_count":23,
+    "original_book_title":"the_ice_dragon",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"90.0, -135.0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.0728,51.2947 ]
+    },
+    "properties": {
+    "original_":666,
+    "original_text":"Thames Embankment",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_ice_dragon",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.2947, -0.0728"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.0906046,51.5106685 ]
+    },
+    "properties": {
+    "original_":85,
+    "original_text":"Cannon Street Station",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_island_of_the_nine_whirlpools",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.5106685, -0.0906046"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":196,
+    "original_text":"England",
+    "original_count":1,
+    "original_total_count":35,
+    "original_book_title":"the_island_of_the_nine_whirlpools",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2577,51.752 ]
+    },
+    "properties": {
+    "original_":427,
+    "original_text":"Oxford",
+    "original_count":1,
+    "original_total_count":3,
+    "original_book_title":"the_island_of_the_nine_whirlpools",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.752, -1.2577"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":197,
+    "original_text":"England",
+    "original_count":1,
+    "original_total_count":35,
+    "original_book_title":"the_king_of_the_golden_river",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.1276,51.5072 ]
+    },
+    "properties": {
+    "original_":359,
+    "original_text":"London",
+    "original_count":2,
+    "original_total_count":35,
+    "original_book_title":"the_king_of_the_golden_river",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.5072, 0.1276"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2577,51.752 ]
+    },
+    "properties": {
+    "original_":428,
+    "original_text":"Oxford",
+    "original_count":1,
+    "original_total_count":3,
+    "original_book_title":"the_king_of_the_golden_river",
+    "original_supersense_category":"noun.group",
+    "lat_long_coordinates":"51.752, -1.2577"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.47,47.3593 ]
+    },
+    "properties": {
+    "original_":638,
+    "original_text":"Stiria",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_king_of_the_golden_river",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"47.3593, 14.47"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.3155,45.4408 ]
+    },
+    "properties": {
+    "original_":704,
+    "original_text":"Venice",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"the_king_of_the_golden_river",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"45.4408, 12.3155"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6691,57.0704 ]
+    },
+    "properties": {
+    "original_":48,
+    "original_text":"Ben Muich Dhui",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_laird_and_the_man_of_peace",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"57.0704, -3.6691"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.71,57.12 ]
+    },
+    "properties": {
+    "original_":301,
+    "original_text":"Highlands",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_laird_and_the_man_of_peace",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"57.12, -4.71"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.966553989,53.4152268 ]
+    },
+    "properties": {
+    "original_":320,
+    "original_text":"Ireland",
+    "original_count":1,
+    "original_total_count":3,
+    "original_book_title":"the_laird_and_the_man_of_peace",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"53.4152268, -7.966553989"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.230093644,56.2942629 ]
+    },
+    "properties": {
+    "original_":355,
+    "original_text":"Loch Awe",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_laird_and_the_man_of_peace",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"56.2942629, -5.230093644"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026,56.4907 ]
+    },
+    "properties": {
+    "original_":588,
+    "original_text":"Scotland",
+    "original_count":1,
+    "original_total_count":4,
+    "original_book_title":"the_laird_and_the_man_of_peace",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"56.4907, -4.2026"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.999927,35.000074 ]
+    },
+    "properties": {
+    "original_":103,
+    "original_text":"China",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"the_light_princess",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"35.000074, 104.999927"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.999927,35.000074 ]
+    },
+    "properties": {
+    "original_":104,
+    "original_text":"Chinese Empire",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_light_princess",
+    "original_supersense_category":"noun.group",
+    "lat_long_coordinates":"35.000074, 104.999927"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.2529,36.2048 ]
+    },
+    "properties": {
+    "original_":327,
+    "original_text":"Japan",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_light_princess",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"36.2048, 138.2529"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 134.755,-24.7761086 ]
+    },
+    "properties": {
+    "original_":33,
+    "original_text":"Australia",
+    "original_count":1,
+    "original_total_count":4,
+    "original_book_title":"the_little_lame_prince_and_his_travelling_cloak",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"-24.7761086, 134.755"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":198,
+    "original_text":"England",
+    "original_count":6,
+    "original_total_count":35,
+    "original_book_title":"the_little_lame_prince_and_his_travelling_cloak",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2137,46.2276 ]
+    },
+    "properties": {
+    "original_":236,
+    "original_text":"France",
+    "original_count":1,
+    "original_total_count":6,
+    "original_book_title":"the_little_lame_prince_and_his_travelling_cloak",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"46.2276, 2.2137"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.298578,51.7970924 ]
+    },
+    "properties": {
+    "original_":410,
+    "original_text":"Nomansland",
+    "original_count":27,
+    "original_total_count":27,
+    "original_book_title":"the_little_lame_prince_and_his_travelling_cloak",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.7970924, -0.298578"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.2026,56.4907 ]
+    },
+    "properties": {
+    "original_":589,
+    "original_text":"Scotland",
+    "original_count":2,
+    "original_total_count":4,
+    "original_book_title":"the_little_lame_prince_and_his_travelling_cloak",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"56.4907, -4.2026"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.0006565,-21.0002179 ]
+    },
+    "properties": {
+    "original_":616,
+    "original_text":"South America",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"the_little_lame_prince_and_his_travelling_cloak",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"-21.0002179, -61.0006565"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.7129,37.0902 ]
+    },
+    "properties": {
+    "original_":12,
+    "original_text":"America",
+    "original_count":1,
+    "original_total_count":3,
+    "original_book_title":"the_magic_fishbone",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"37.0902, -95.7129"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":199,
+    "original_text":"England",
+    "original_count":1,
+    "original_total_count":35,
+    "original_book_title":"the_magic_fishbone",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.1276,51.5072 ]
+    },
+    "properties": {
+    "original_":361,
+    "original_text":"London",
+    "original_count":1,
+    "original_total_count":35,
+    "original_book_title":"the_magic_fishbone",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.5072, 0.1276"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4515,51.1657 ]
+    },
+    "properties": {
+    "original_":250,
+    "original_text":"Germany",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"the_nix_in_mischief",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.1657, 10.4515"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 89.2343748,51.2086975 ]
+    },
+    "properties": {
+    "original_":28,
+    "original_text":"Asia",
+    "original_count":1,
+    "original_total_count":4,
+    "original_book_title":"the_pied_piper_of_hamelin",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.2086975, 89.2343748"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.5268,52.2689 ]
+    },
+    "properties": {
+    "original_":68,
+    "original_text":"Brunswick",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_pied_piper_of_hamelin",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.2689, 10.5268"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.5268,52.2689 ]
+    },
+    "properties": {
+    "original_":69,
+    "original_text":"Brunswick land",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_pied_piper_of_hamelin",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.2689, 10.5268"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.3616,52.1042 ]
+    },
+    "properties": {
+    "original_":276,
+    "original_text":"HAMELIN",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_pied_piper_of_hamelin",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.1042, 9.3616"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5989831,37.1807279 ]
+    },
+    "properties": {
+    "original_":283,
+    "original_text":"Hamelin",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_pied_piper_of_hamelin",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"37.1807279, -3.5989831"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5989831,37.1807279 ]
+    },
+    "properties": {
+    "original_":284,
+    "original_text":"Hamelin Town",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_pied_piper_of_hamelin",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"37.1807279, -3.5989831"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5989831,37.1807279 ]
+    },
+    "properties": {
+    "original_":285,
+    "original_text":"Hamelin town",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_pied_piper_of_hamelin",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"37.1807279, -3.5989831"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.732,52.3759 ]
+    },
+    "properties": {
+    "original_":289,
+    "original_text":"Hanover city",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_pied_piper_of_hamelin",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3759, 9.732"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.097834,49.9654545 ]
+    },
+    "properties": {
+    "original_":341,
+    "original_text":"Koppelberg Hill",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_pied_piper_of_hamelin",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"49.9654545, 7.097834"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 66.9237,48.0196 ]
+    },
+    "properties": {
+    "original_":660,
+    "original_text":"Tartary",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"the_pied_piper_of_hamelin",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"48.0196, 66.9237"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.2224,46.1841 ]
+    },
+    "properties": {
+    "original_":687,
+    "original_text":"Transylvania",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_pied_piper_of_hamelin",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"46.1841, 25.2224"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.3467758,49.8916649 ]
+    },
+    "properties": {
+    "original_":166,
+    "original_text":"Downs",
+    "original_count":1,
+    "original_total_count":4,
+    "original_book_title":"the_reluctant_dragon",
+    "original_supersense_category":"noun.group",
+    "lat_long_coordinates":"49.8916649, -6.3467758"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.3467758,49.8916649 ]
+    },
+    "properties": {
+    "original_":167,
+    "original_text":"Downs",
+    "original_count":3,
+    "original_total_count":4,
+    "original_book_title":"the_reluctant_dragon",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"49.8916649, -6.3467758"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 87.855,22.9868 ]
+    },
+    "properties": {
+    "original_":49,
+    "original_text":"Bengal Light",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_remarkable_rocket",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"22.9868, 87.855"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 87.855,22.9868 ]
+    },
+    "properties": {
+    "original_":50,
+    "original_text":"Bengal Lights",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_remarkable_rocket",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"22.9868, 87.855"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.7482,61.9241 ]
+    },
+    "properties": {
+    "original_":219,
+    "original_text":"Finland",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_remarkable_rocket",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"61.9241, 25.7482"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 17.7578122,11.5024338 ]
+    },
+    "properties": {
+    "original_":5,
+    "original_text":"Africa",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"11.5024338, 17.7578122"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.7129,37.0902 ]
+    },
+    "properties": {
+    "original_":13,
+    "original_text":"America",
+    "original_count":2,
+    "original_total_count":3,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"37.0902, -95.7129"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 134.755,-24.7761086 ]
+    },
+    "properties": {
+    "original_":34,
+    "original_text":"Australia",
+    "original_count":2,
+    "original_total_count":4,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"-24.7761086, 134.755"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 33.99381559,43.87280435 ]
+    },
+    "properties": {
+    "original_":57,
+    "original_text":"Black Sea",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"43.87280435, 33.99381559"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8491554,38.646806 ]
+    },
+    "properties": {
+    "original_":87,
+    "original_text":"Cappadocia",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"38.646806, 34.8491554"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.4997,45.3453 ]
+    },
+    "properties": {
+    "original_":145,
+    "original_text":"Crimea",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"45.3453, 34.4997"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.140961,45.366664 ]
+    },
+    "properties": {
+    "original_":146,
+    "original_text":"Crimean realm",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"45.366664, 34.140961"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.3333283,55.670249 ]
+    },
+    "properties": {
+    "original_":157,
+    "original_text":"Denmark",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"55.670249, 10.3333283"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":200,
+    "original_text":"England",
+    "original_count":2,
+    "original_total_count":35,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.076,51.5099 ]
+    },
+    "properties": {
+    "original_":408,
+    "original_text":"Newgate",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"51.5099, -0.076"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 38.53429714,20.29654545 ]
+    },
+    "properties": {
+    "original_":525,
+    "original_text":"Red Sea",
+    "original_count":2,
+    "original_total_count":2,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"20.29654545, 38.53429714"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4964,41.9028 ]
+    },
+    "properties": {
+    "original_":546,
+    "original_text":"Rome",
+    "original_count":1,
+    "original_total_count":10,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"41.9028, 12.4964"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.4163018,53.521 ]
+    },
+    "properties": {
+    "original_":716,
+    "original_text":"Wombwell",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_rose_and_the_ring",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"53.521, -1.4163018"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 17.2283,26.3351 ]
+    },
+    "properties": {
+    "original_":354,
+    "original_text":"Libya",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_star_child",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"26.3351, 17.2283"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 29.2675469,26.2540493 ]
+    },
+    "properties": {
+    "original_":184,
+    "original_text":"Egypt",
+    "original_count":2,
+    "original_total_count":14,
+    "original_book_title":"the_young_king",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"26.2540493, 29.2675469"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.9629,20.5937 ]
+    },
+    "properties": {
+    "original_":317,
+    "original_text":"India",
+    "original_count":2,
+    "original_total_count":32,
+    "original_book_title":"the_young_king",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"20.5937, 78.9629"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.5156,56.511 ]
+    },
+    "properties": {
+    "original_":1955,
+    "original_text":"north seas",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_young_king",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"56.511, 3.5156"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 56.472,26.5945 ]
+    },
+    "properties": {
+    "original_":421,
+    "original_text":"Ormuz",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_young_king",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"26.5945, 56.472"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.688,32.4279 ]
+    },
+    "properties": {
+    "original_":500,
+    "original_text":"Persia",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_young_king",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"32.4279, 53.688"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.5695,44.0678 ]
+    },
+    "properties": {
+    "original_":536,
+    "original_text":"Rimini",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_young_king",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"44.0678, 12.5695"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 66.975,39.627 ]
+    },
+    "properties": {
+    "original_":581,
+    "original_text":"Samarcand",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_young_king",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"39.627, 66.975"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 110.3592,1.5533 ]
+    },
+    "properties": {
+    "original_":572,
+    "original_text":"Sarawak",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"the_young_king",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"1.5533, 110.3592"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 66.9237,48.0196 ]
+    },
+    "properties": {
+    "original_":661,
+    "original_text":"Tartary",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"the_young_king",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"48.0196, 66.9237"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.3155,45.4408 ]
+    },
+    "properties": {
+    "original_":705,
+    "original_text":"Venice",
+    "original_count":1,
+    "original_total_count":2,
+    "original_book_title":"the_young_king",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"45.4408, 12.3155"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4699,50.5039 ]
+    },
+    "properties": {
+    "original_":47,
+    "original_text":"Belgian",
+    "original_count":1,
+    "original_total_count":1,
+    "original_book_title":"uncle_james",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"50.5039, 4.4699"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1743,52.3555 ]
+    },
+    "properties": {
+    "original_":201,
+    "original_text":"England",
+    "original_count":1,
+    "original_total_count":35,
+    "original_book_title":"uncle_james",
+    "original_supersense_category":"noun.location",
+    "lat_long_coordinates":"52.3555, 1.1743"
+    }
+  }
+]
+}
