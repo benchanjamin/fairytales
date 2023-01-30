@@ -92,7 +92,6 @@
 /* Map classes */
 svg {
     border: solid 1px gray;
-    margin: 0 auto;
 }
 
 .country {
@@ -116,7 +115,6 @@ svg {
 
 #tooltip {
     pointer-events: none;
-    width: auto;
 }
 #tooltip rect {
     fill: white;
@@ -128,5 +126,23 @@ svg {
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 12px;
     text-anchor: middle;
+}
+
+#chart {
+    margin: 50px 5rem 0 5rem
+}
+
+#zoom_in, #zoom_out {
+    color: gray;
+}
+
+#zoom_in:hover, #zoom_out:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 1400px) {
+    #chart {
+        margin: 20px 0
+    }
 }
 /* End Map classes */

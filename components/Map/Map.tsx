@@ -11,7 +11,6 @@ function Map(props) {
         const FILE = "/static/world-lowres.geojson";
 
         const svg = d3.select(svgRef.current)
-            .attr("width", width).attr("height", height).style("margin", "50px auto");
 
 // add objects to globe, so they can be zoomed
         const globe = svg.append("g");
@@ -35,6 +34,7 @@ function Map(props) {
                 // drawGraticules();
                 draw();
                 drawTooltips();
+                drawButtons();
             });
 
         d3.json('/static/cleaned-data-12-4.geojson').then(function (data) {
@@ -52,18 +52,50 @@ function Map(props) {
 
         })
 
+        const zoom = d3.zoom()
+            .scaleExtent([1, 80])
+            .translateExtent([[0, 0], [width, height]])
+            .on('zoom', () => {
+                globe.attr("transform", d3.event.transform);
+            });
+
+        svg.call(zoom).on("dblclick.zoom", null);
+
+        function drawButtons() {
+            const buttonDiv = svg.append("foreignObject")
+                .attr("x", 920).attr("y", 435).attr("width", "29px").attr("height", "49px").style("border-radius", "8px")
+                .style("background-color", "white")
+                .style("box-shadow", "0 1px 4px rgb(0 0 0 / 30%)")
+                .append("xhtml:div").attr("display", "block")
+            buttonDiv
+                .append("xhtml:button").text("+").attr("id", "zoom_in").style("display", "block")
+                .style("margin", "0 auto").style("font-family", "monospace").style("padding", "2px 0")
+            buttonDiv.append("hr")
+            buttonDiv
+                .append("xhtml:button").text("-").attr("id", "zoom_out").style("display", "block")
+                .style("margin", "0 auto").style("font-family", "monospace").style("padding", "2px 0")
+            d3.select("#zoom_in").on("click", function () {
+                zoom.scaleBy(svg.transition().duration(300), 1.5);
+            });
+            d3.select("#zoom_out").on("click", function () {
+                zoom.scaleBy(svg.transition().duration(300), 0.5);
+            });
+        }
+
         function drawTooltips() {
             svg.append("g").attr("id", "tooltip")
                 .style("opacity", 0)
                 .each(function (d) {
                     d3.select(this).append("rect")
                         .attr("height", 40)
-                        .attr("width", 150)
+                        .attr("width", 250)
                         .attr("rx", 5).attr("ry", 5)
                         .attr("x", -75).attr("y", -20)
                     d3.select(this).append("text")
+                        .attr("x", 50)
                         .attr("y", -5)
                     d3.select(this).append("text")
+                        .attr("x", 50)
                         .attr("y", 15);
                 })
         }
@@ -84,15 +116,7 @@ function Map(props) {
         }
 
 // SVG zoom
-        const zoom = d3.zoom()
-            .scaleExtent([1, 80])
-            .translateExtent([[0, 0], [width, height]])
-            .on('zoom', () => {
-                globe.attr("transform", d3.event.transform);
-                d3.select("#tooltip").attr("transform", d3.event.transform);
-            });
 
-        svg.call(zoom);
 
         function draw() {
             globe.selectAll("path.country")
@@ -112,9 +136,20 @@ function Map(props) {
     }, [svgRef])
 
     return (
-        <div id="chart">
-            <svg ref={svgRef}></svg>
-        </div>
+        <>
+
+
+            <div id="chart">
+                <svg ref={svgRef} viewBox='0 0 960 500' xmlns="http://www.w3.org/1999/xhtml">
+                    {/*<foreignObject x="900" y="440" width="160" height="160">*/}
+                    {/*    <button>Button1</button>*/}
+                    {/*</foreignObject>*/}
+                    {/*<foreignObject x="900" y="470" width="160" height="160">*/}
+                    {/*    <button>Button2</button>*/}
+                    {/*</foreignObject>*/}
+                </svg>
+            </div>
+        </>
     );
 }
 
