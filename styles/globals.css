@@ -92,12 +92,13 @@
 /* Map classes */
 svg {
     border: solid 1px gray;
+    /*background-color: #c4c2c2;*/
 }
 
 .country {
     fill: gray;
-    stroke: white;
-    stroke-width: .5;
+    /*stroke: white;*/
+    /*stroke-width: .5;*/
 }
 
 .graticule {
@@ -110,7 +111,8 @@ svg {
     fill: yellow;
     stroke: black;
     stroke-width: 0.3;
-    opacity: 0.6;
+    opacity: 1;
+    transition: ease-in 0.5s 0s;
 }
 
 #tooltip {
@@ -122,8 +124,8 @@ svg {
     stroke: black;
     stroke-width: .5;
 }
+
 #tooltip text {
-    font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 12px;
     text-anchor: middle;
 }

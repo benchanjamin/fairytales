@@ -8,15 +8,17 @@ function Map(props) {
     useEffect(() => {
         const width = 960;
         const height = 500;
-        const FILE = "/static/world-lowres.geojson";
+        const FILE = "/static/earth-coastlines-10km.geo.json";
 
-        const svg = d3.select(svgRef.current)
+        const svg = d3.select(svgRef.current).attr("viewBox", `0 0 ${width} ${height}`)
 
 // add objects to globe, so they can be zoomed
         const globe = svg.append("g");
 
 // choose a projection
-        const projection = d3.geoMercator();
+        const projection = d3.geoMercator().scale(width / 3 / Math.PI)
+            .center([20, 30])
+            .translate([width / 2, height / 2]);
 
 // create a path generator function for the projection
         const geoPath = d3.geoPath()
@@ -44,19 +46,28 @@ function Map(props) {
                 .append("g").attr("class", "city")
                 .attr("transform", d => `translate(${[projection(d.geometry.coordinates)]})`)
                 .each(function (d) {
-                    d3.select(this).append("circle").attr('r', Math.sqrt(d.properties.original_total_count)).raise()
+                    d3.select(this).append("circle").raise()
+                        .attr('r', Math.sqrt(d.properties.original_total_count))
                         .on("mouseenter", showTooltip)
-                        .on("mouseleave", hideTooltip);
+                        .on("mouseleave", hideTooltip)
                     d3.select(this).append("text").attr('y', 2).text(d.properties.name);
                 });
 
         })
 
         const zoom = d3.zoom()
-            .scaleExtent([1, 80])
+            .scaleExtent([1, 600])
             .translateExtent([[0, 0], [width, height]])
             .on('zoom', () => {
-                globe.attr("transform", d3.event.transform);
+                const currentTransform = d3.event.transform;
+                globe.attr("transform", currentTransform);
+                // console.log(currentTransform.k)
+                d3.selectAll("circle").attr("transform", function (d, i, n) {
+                    if (currentTransform.k > 17) {
+                        return `scale(${3 / (currentTransform.k)})`
+                    }
+                    return `scale(${this.r.animVal.value / (this.r.animVal.value + currentTransform.k * 0.18)})`
+                })
             });
 
         svg.call(zoom).on("dblclick.zoom", null);
@@ -66,7 +77,7 @@ function Map(props) {
                 .attr("x", 920).attr("y", 435).attr("width", "29px").attr("height", "49px").style("border-radius", "8px")
                 .style("background-color", "white")
                 .style("box-shadow", "0 1px 4px rgb(0 0 0 / 30%)")
-                .append("xhtml:div").attr("display", "block")
+                .append("xhtml:div")
             buttonDiv
                 .append("xhtml:button").text("+").attr("id", "zoom_in").style("display", "block")
                 .style("margin", "0 auto").style("font-family", "monospace").style("padding", "2px 0")
@@ -115,9 +126,6 @@ function Map(props) {
             d3.select("#tooltip").style("opacity", 0)
         }
 
-// SVG zoom
-
-
         function draw() {
             globe.selectAll("path.country")
                 .data(map.features)
@@ -140,7 +148,7 @@ function Map(props) {
 
 
             <div id="chart">
-                <svg ref={svgRef} viewBox='0 0 960 500' xmlns="http://www.w3.org/1999/xhtml">
+                <svg ref={svgRef} xmlns="http://www.w3.org/1999/xhtml">
                     {/*<foreignObject x="900" y="440" width="160" height="160">*/}
                     {/*    <button>Button1</button>*/}
                     {/*</foreignObject>*/}

@@ -1285,22 +1285,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
-    },
-    "properties": {
-    "original_":20,
-    "original_text":"Arecarp",
-    "original_count":4,
-    "original_total_count":4,
-    "original_book_title":"the_brown_owl",
-    "original_supersense_category":"noun.location",
-    "lat_long_coordinates":"nan, nan"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ -1.918023495,54.31536155 ]
     },
     "properties": {
