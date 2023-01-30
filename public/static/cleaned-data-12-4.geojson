@@ -1877,7 +1877,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -135.0,90.0 ]
+       "coordinates":  [ 0,84 ]
     },
     "properties": {
     "original_":399,
@@ -1893,7 +1893,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -135.0,90.0 ]
+      "coordinates":  [ 0,84 ]
     },
     "properties": {
     "original_":412,
