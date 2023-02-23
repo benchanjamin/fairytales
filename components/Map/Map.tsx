@@ -70,7 +70,7 @@ function Map(props) {
                 })
             });
 
-        svg.call(zoom).on("dblclick.zoom", null);
+        svg.call(zoom).on("dblclick.zoom", null).on("wheel.zoom", null);
 
         function drawButtons() {
             const buttonDiv = svg.append("foreignObject")
