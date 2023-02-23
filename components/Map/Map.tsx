@@ -78,12 +78,14 @@ function Map(props) {
                 .style("background-color", "white")
                 .style("box-shadow", "0 1px 4px rgb(0 0 0 / 30%)")
                 .append("xhtml:div")
-            buttonDiv
-                .append("xhtml:button").text("+").attr("id", "zoom_in").style("display", "block")
+            buttonDiv.append("div").attr("id", "zoom_in")
+                .append("xhtml:button").text("+").style("display", "block")
+                .attr("height", "24px").attr("width", "14px")
                 .style("margin", "0 auto").style("font-family", "monospace").style("padding", "2px 0")
             buttonDiv.append("hr")
-            buttonDiv
-                .append("xhtml:button").text("-").attr("id", "zoom_out").style("display", "block")
+            buttonDiv.append("div").attr("id", "zoom_out")
+                .append("xhtml:button").text("-").style("display", "block")
+                .attr("height", "24px").attr("width", "14px")
                 .style("margin", "0 auto").style("font-family", "monospace").style("padding", "2px 0")
             d3.select("#zoom_in").on("click", function () {
                 zoom.scaleBy(svg.transition().duration(300), 1.5);
