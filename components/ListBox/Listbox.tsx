@@ -83,6 +83,7 @@ export default function ComboBox({onChange}) {
                     .includes(query.toLowerCase().replace(/\s+/g, ''))
             )
 
+    // @ts-ignore
     return (
         <div className="relative -top-5 left-1/2 -translate-x-1/2 sm:w-[23rem] w-[19rem] md:left-2 md:top-12 md:translate-x-0 inter-var">
             <Combobox value={selected} by="id" onChange={e => {
@@ -94,8 +95,10 @@ export default function ComboBox({onChange}) {
                         className="relative w-full cursor-default overflow-hidden rounded-lg bg-white text-left shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-teal-300 sm:text-sm">
                         <Combobox.Input
                             className="w-full border-none py-2 pl-3 pr-10 sm:text-sm text-xs leading-5 text-gray-900 focus:ring-0"
+                            // @ts-ignore
                             displayValue={(person) => person.name}
                             onChange={(event) => setQuery(event.target.value)}
+                            // @ts-ignore
                             spellcheck="false"
                         />
                         <Combobox.Button className="absolute inset-y-0 right-0 flex items-center pr-2">
