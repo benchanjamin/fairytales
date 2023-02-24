@@ -11,7 +11,8 @@ module.exports = {
             },
             colors: {
                 lightBlack: '#1d1d1d',
-                lightBlue: '#5ce1e6'
+                lightBlue: '#5ce1e6',
+                darkBlue: '#20c5cb'
             },
             fontFamily: {
                 sans: ['cormorant-garamond', 'sans-serif'],

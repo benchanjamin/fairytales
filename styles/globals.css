@@ -90,9 +90,13 @@
 /* End Utility classes */
 
 /* Map classes */
-svg {
+#svg-main {
     border: solid 1px gray;
     /*background-color: #c4c2c2;*/
+}
+
+.inter-var {
+    font-family: Inter, serif;
 }
 
 .country {
@@ -131,7 +135,7 @@ svg {
 }
 
 #chart {
-    margin: 50px 5rem 0 5rem
+    margin: 50px 5rem 0 5rem;
 }
 
 #zoom_in, #zoom_out {
@@ -144,7 +148,7 @@ svg {
 
 @media only screen and (max-width: 1400px) {
     #chart {
-        margin: 20px 0
+        margin: 20px 4px
     }
 }
 /* End Map classes */

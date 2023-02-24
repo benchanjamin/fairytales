@@ -1,9 +1,108 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import * as d3 from "d3";
-import {event} from "next/dist/build/output/log";
+import classes from "./Map.module.css"
+import ComboBox from "@components/ListBox/Listbox";
 
 function Map(props) {
+    let titleMapper = {
+        all_text: 'All Text',
+        dymchurch_flit: 'Dymchurch Flit',
+        kind_little_edmund: 'Kind Little Edmund',
+        melisande: 'Melisande',
+        murdochs_rath: "Murdoch's Rath",
+        prince_prigio: 'Prince Prigio',
+        prince_ricardo_of_pantouflia: 'Prince Ricardo of Pantouflia',
+        the_birthday_of_the_infanta: 'The Birthday of Infanta',
+        the_brown_owl: 'The Brown Owl',
+        the_deliverers_of_their_country: 'The Deliverers of Their Country',
+        the_fiddler_in_the_fairy_ring: 'The Fiddler in the Fairy Ring',
+        the_fiery_dragon: 'The Fiery Dragon',
+        the_fisherman_and_his_soul: 'The Fisherman and His Soul',
+        the_happy_prince: 'The Happy Prince',
+        the_ice_dragon: 'The Ice Dragon',
+        the_island_of_the_nine_whirlpools: 'The Island of the Nine Whirlpools',
+        the_king_of_the_golden_river: 'The King of the Golden River',
+        the_laird_and_the_man_of_peace: 'The Laird and the Man of Peace',
+        the_light_princess: 'The Light Princess',
+        the_little_lame_prince_and_his_travelling_cloak: 'The Little Lame Prince and His Traveling Cloak',
+        the_magic_fishbone: 'The Magic Fishbone',
+        the_nix_in_mischief: 'The Nix in Mischief',
+        the_pied_piper_of_hamelin: 'The Pied Piper of Hamelin',
+        the_reluctant_dragon: 'The Reluctant Dragon',
+        the_remarkable_rocket: 'The Remarkable Rocket',
+        the_rose_and_the_ring: 'The Rose and the Ring',
+        the_star_child: 'The Star-Child',
+        the_young_king: 'The Young King',
+        uncle_james: 'Uncle James'
+    }
+
+    let authorMapper = {
+        'Phantasmion': 'Sara Coleridge',
+        'The Pied Piper of Hamelin': 'Robert Browning',
+        'The King of the Golden River': 'John Ruskin',
+        'The Rose and the Ring': 'William Makepeace Thackeray',
+        'Goblin Market': 'Christina Rossetti',
+        'The Magic Fishbone': 'Charles Dickens',
+        'The Little Lame Prince and His Traveling Cloak': 'Dinah McCraik',
+        "I Won't": 'Juliana Horatia Ewing',
+        'Good Luck Is Better Than Gold': 'Juliana Horatia Ewing',
+        'Kind William and the Water Sprite': 'Juliana Horatia Ewing',
+        'Knave and Fool': 'Juliana Horatia Ewing',
+        "Murdoch's Rath": 'Juliana Horatia Ewing',
+        'The Cobbler and the Ghosts': 'Juliana Horatia Ewing',
+        'The Fiddler in the Fairy Ring': 'Juliana Horatia Ewing',
+        "The First Wife's Wedding Ring": 'Juliana Horatia Ewing',
+        'The Hillman and the Housewife': 'Juliana Horatia Ewing',
+        'The Laird and the Man of Peace': 'Juliana Horatia Ewing',
+        'The Little Darner': 'Juliana Horatia Ewing',
+        'The Magic Jar': 'Juliana Horatia Ewing',
+        'The Magician Turned Mischief-Maker': 'Juliana Horatia Ewing',
+        "The Magicians' Gifts": 'Juliana Horatia Ewing',
+        'The Neck, A Legend of Lake': 'Juliana Horatia Ewing',
+        'The Nix in Mischief': 'Juliana Horatia Ewing',
+        'The Ogre Courting': 'Juliana Horatia Ewing',
+        'The Widows and the Strangers': 'Juliana Horatia Ewing',
+        'Under the Sun': 'Juliana Horatia Ewing',
+        'The Fairies (A Poem)': 'William Allingham',
+        'The Bread of Discontent': 'Mary De Morgan',
+        'The Heart of Princess Joan': 'Mary De Morgan',
+        'The Necklace of Princess Fiorimonde': 'Mary De Morgan',
+        "The Pedlar's Pack": 'Mary De Morgan',
+        'The Three Clever Kings': 'Mary De Morgan',
+        'The Wanderings of Arasmon': 'Mary De Morgan',
+        'The Wise Princess': 'Mary De Morgan',
+        "The Giant's Heart": 'George MacDonald',
+        'The Golden Key': 'George MacDonald',
+        'The Light Princess': 'George MacDonald',
+        'The Devoted Friend': 'Oscar Wilde',
+        'The Happy Prince': 'Oscar Wilde',
+        'The Nightingale and the Rose': 'Oscar Wilde',
+        'The Remarkable Rocket': 'Oscar Wilde',
+        'The Selfish Giant': 'Oscar Wilde',
+        'Prince Prigio': 'Andrew Lang',
+        'The Brown Owl': 'Ford Madox Ford',
+        'The Birthday of Infanta': 'Oscar Wilde',
+        'The Fisherman and His Soul': 'Oscar Wilde',
+        'The Star-Child': 'Oscar Wilde',
+        'The Young King': 'Oscar Wilde',
+        'Prince Ricardo of Pantouflia': 'Andrew Lang',
+        'The Reluctant Dragon': 'Kenneth Grahame',
+        'Kind Little Edmund': 'E. Nesbit',
+        'The Book of Beasts': 'E. Nesbit',
+        'The Deliverers of Their Country': 'E. Nesbit',
+        'The Dragon Tamers': 'E. Nesbit',
+        'The Fiery Dragon': 'E. Nesbit',
+        'The Ice Dragon': 'E. Nesbit',
+        'The Island of the Nine Whirlpools': 'E. Nesbit',
+        'Uncle James': 'E. Nesbit',
+        'Melisande': 'E. Nesbit',
+        'Dymchurch Flit': 'Rudyard Kipling'
+    }
+
+
+
     const svgRef = React.useRef(null);
+    const [filter, setFilter] = useState("all_text");
 
     useEffect(() => {
         const width = 960;
@@ -37,23 +136,25 @@ function Map(props) {
                 draw();
                 drawTooltips();
                 drawButtons();
+                drawPointsOfInterest()
             });
 
-        d3.json('/static/cleaned-data-12-4.geojson').then(function (data) {
-            const pointsOfInterest = data.features.filter(d => d.geometry.type == 'Point');
+        function drawPointsOfInterest() {
+            d3.json('/static/cleaned-data-12-4.geojson').then(function (data) {
+                let pointsOfInterest = data.features.filter(d => d.geometry.type === 'Point');
 
-            svg.select("g").selectAll("g.city").data(pointsOfInterest).enter()
-                .append("g").attr("class", "city")
-                .attr("transform", d => `translate(${[projection(d.geometry.coordinates)]})`)
-                .each(function (d) {
-                    d3.select(this).append("circle").raise()
-                        .attr('r', Math.sqrt(d.properties.original_total_count))
-                        .on("mouseenter", showTooltip)
-                        .on("mouseleave", hideTooltip)
-                    d3.select(this).append("text").attr('y', 2).text(d.properties.name);
-                });
+                svg.select("g").selectAll("g.city").data(pointsOfInterest).enter()
+                    .append("g").attr("class", "city")
+                    .attr("transform", d => `translate(${[projection(d.geometry.coordinates)]})`)
+                    .each(function (d) {
+                        d3.select(this).append("circle").raise()
+                            .attr('r', Math.sqrt(d.properties.original_total_count))
+                            .on("mouseenter", showTooltip)
+                            .on("mouseleave", hideTooltip);
+                    });
+            })
+        }
 
-        })
 
         const zoom = d3.zoom()
             .scaleExtent([1, 600])
@@ -77,7 +178,7 @@ function Map(props) {
                 .attr("x", 920).attr("y", 435).attr("width", "29px").attr("height", "49px").style("border-radius", "8px")
                 .style("background-color", "white")
                 .style("box-shadow", "0 1px 4px rgb(0 0 0 / 30%)")
-                .append("xhtml:div")
+                .append("xhtml:div").style("cursor", "pointer")
             buttonDiv.append("div").attr("id", "zoom_in")
                 .append("xhtml:button").text("+").style("display", "block")
                 .attr("height", "24px").attr("width", "14px")
@@ -100,16 +201,25 @@ function Map(props) {
                 .style("opacity", 0)
                 .each(function (d) {
                     d3.select(this).append("rect")
-                        .attr("height", 40)
-                        .attr("width", 250)
+                        .attr("height", 100)
+                        .attr("width", 280)
                         .attr("rx", 5).attr("ry", 5)
-                        .attr("x", -75).attr("y", -20)
+                        .attr("x", -140).attr("y", -20)
                     d3.select(this).append("text")
-                        .attr("x", 50)
+                        .attr("x", 0)
                         .attr("y", -5)
                     d3.select(this).append("text")
-                        .attr("x", 50)
+                        .attr("x", 0)
                         .attr("y", 15);
+                    d3.select(this).append("text")
+                        .attr("x", 0)
+                        .attr("y", 35);
+                    d3.select(this).append("text")
+                        .attr("x", 0)
+                        .attr("y", 55);
+                    d3.select(this).append("text")
+                        .attr("x", 0)
+                        .attr("y", 75);
                 })
         }
 
@@ -120,8 +230,14 @@ function Map(props) {
                 .style("opacity", 1);
             tooltip.select("text:first-of-type")
                 .text(`Location: \"${d.properties.original_text}\"`)
+            tooltip.select("text:nth-of-type(2)")
+                .text(`Text: \"${titleMapper[d.properties.original_book_title]}\"`)
+            tooltip.select("text:nth-of-type(3)")
+                .text(`Author: ${authorMapper[titleMapper[d.properties.original_book_title]]}`)
+            tooltip.select("text:nth-of-type(4)")
+                .text(`Count in Text: ${d.properties.original_count}`)
             tooltip.select("text:last-child")
-                .text(`Total count: ${d.properties.original_total_count}`)
+                .text(`Total Count Across All Texts: ${d.properties.original_total_count}`)
         }
 
         function hideTooltip() {
@@ -145,19 +261,74 @@ function Map(props) {
         // }
     }, [svgRef])
 
+    useEffect(() => {
+        const width = 960;
+        const height = 500;
+
+        const projection = d3.geoMercator().scale(width / 3 / Math.PI)
+            .center([20, 30])
+            .translate([width / 2, height / 2]);
+
+        function showTooltip(d, i, n) {
+            const coords = d3.mouse(d3.select(svgRef.current).node())
+            const tooltip = d3.select("#tooltip")
+                .attr("transform", `translate(${[coords[0], coords[1] + 40]})`)
+                .style("opacity", 1);
+            tooltip.select("text:first-of-type")
+                .text(`Location: \"${d.properties.original_text}\"`)
+            tooltip.select("text:nth-of-type(2)")
+                .text(`Text: \"${titleMapper[d.properties.original_book_title]}\"`)
+            tooltip.select("text:nth-of-type(3)")
+                .text(`Author: ${authorMapper[titleMapper[d.properties.original_book_title]]}`)
+            tooltip.select("text:nth-of-type(4)")
+                .text(`Count in Text: ${d.properties.original_count}`)
+            tooltip.select("text:last-child")
+                .text(`Total Count Across All Texts: ${d.properties.original_total_count}`)
+        }
+
+        function hideTooltip() {
+            d3.select("#tooltip").style("opacity", 0)
+        }
+
+        function update(filter) {
+            d3.json('/static/cleaned-data-12-4.geojson').then(function (data) {
+                // TODO: delete existing points
+                d3.select(svgRef.current).select("g").selectAll("g.city").remove();
+
+                let pointsOfInterest = data.features.filter(d => d.geometry.type === 'Point');
+                console.log(pointsOfInterest)
+                if (filter.alt !== "all_text") {
+                    pointsOfInterest = pointsOfInterest.filter(d => d.properties.original_book_title === filter.alt)
+                }
+
+                d3.select(svgRef.current).select("g").selectAll("g.city").data(pointsOfInterest).enter()
+                    .append("g").attr("class", "city")
+                    .attr("transform", d => `translate(${[projection(d.geometry.coordinates)]})`)
+                    .each(function (d) {
+                        d3.select(this).append("circle").raise()
+                            .attr('r', Math.sqrt(d.properties.original_total_count))
+                            .on("mouseenter", showTooltip)
+                            .on("mouseleave", hideTooltip)
+                    });
+            })
+        }
+
+        update(filter)
+    }, [filter]);
+
     return (
         <>
+            <div className={`mt-14 section-container relative`}>
+                <h2 className={classes.map_header_title}>
+                    Data Visualization of Mappable Locations in the Nineteenth-Century Literary Fairy Tale
+                </h2>
+            </div>
+            <div>
 
-
+            </div>
             <div id="chart">
-                <svg ref={svgRef} xmlns="http://www.w3.org/1999/xhtml">
-                    {/*<foreignObject x="900" y="440" width="160" height="160">*/}
-                    {/*    <button>Button1</button>*/}
-                    {/*</foreignObject>*/}
-                    {/*<foreignObject x="900" y="470" width="160" height="160">*/}
-                    {/*    <button>Button2</button>*/}
-                    {/*</foreignObject>*/}
-                </svg>
+                <ComboBox onChange={setFilter}/>
+                <svg ref={svgRef} id="svg-main" xmlns="http://www.w3.org/1999/xhtml"/>
             </div>
         </>
     );
