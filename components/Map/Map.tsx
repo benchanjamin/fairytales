@@ -148,10 +148,10 @@ function Map(props) {
                     .append("g").attr("class", "city")
                     .attr("transform", d => `translate(${[projection(d.geometry.coordinates)]})`)
                     .each(function (d) {
-                        d3.select(this).append("circle").raise()
-                            .attr('r', Math.sqrt(d.properties.original_total_count))
-                            .on("mouseenter", showTooltip)
-                            .on("mouseleave", hideTooltip);
+                            d3.select(this).append("circle").raise()
+                                .attr('r', Math.sqrt(d.properties.original_total_count) + 2)
+                                .on("mouseenter", showTooltip)
+                                .on("mouseleave", hideTooltip);
                     });
             })
         }
