@@ -33,6 +33,7 @@ const texts = [
     {id: 27, name: "The Star Child", alt: "the_star_child"},
     {id: 28, name: "The Young King", alt: "the_young_king"},
     {id: 29, name: "Uncle James", alt: "uncle_james"},
+    {id: 30, name: "The Devoted Friend", alt: "the_devoted_friend"},
 ]
 
 // const texts = [
@@ -85,7 +86,7 @@ export default function ComboBox({onChange}) {
 
     // @ts-ignore
     return (
-        <div className="relative -top-5 left-1/2 -translate-x-1/2 sm:w-[23rem] w-[19rem] md:left-2 md:top-12 md:translate-x-0 inter-var">
+        <div className="relative -top-5 left-1/2 -translate-x-1/2 sm:w-[23rem] w-[19rem] md:left-2 md:top-12 md:translate-x-0 font-change">
             <Combobox value={selected} by="id" onChange={e => {
                 setSelected(e);
                 onChange(e)

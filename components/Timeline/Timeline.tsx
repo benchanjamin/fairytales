@@ -23,7 +23,7 @@ function Timeline() {
     return (
         <>
             <div className={`mt-14 section-container relative`}>
-                <h2 className={classes.timeline_header_title}>
+                <h2 className={`${classes.timeline_header_title}`}>
                     This timeline lists the publication dates for influential and key fairy tale texts, along with other
                     dates and facts that pertain to the British fairy tale tradition. N.B.: this timeline is in no way
                     comprehensive or exhaustive, but rather contains relevant information that was utilized for this

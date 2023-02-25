@@ -95,8 +95,8 @@
     /*background-color: #c4c2c2;*/
 }
 
-.inter-var {
-    font-family: Inter, serif;
+.font-change {
+    font-family: Lato, serif;
 }
 
 .country {
@@ -112,7 +112,7 @@
 }
 
 .city circle {
-    fill: yellow;
+    fill: #9effff;
     stroke: black;
     stroke-width: 0.3;
     opacity: 1;
@@ -122,6 +122,7 @@
 #tooltip {
     pointer-events: none;
 }
+
 #tooltip rect {
     fill: white;
     fill-opacity: .9;
@@ -132,6 +133,8 @@
 #tooltip text {
     font-size: 12px;
     text-anchor: middle;
+    font-family: Lato, sans-serif;
+    font-weight: lighter;
 }
 
 #chart {
@@ -151,4 +154,5 @@
         margin: 20px 4px
     }
 }
+
 /* End Map classes */

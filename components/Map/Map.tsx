@@ -33,7 +33,8 @@ function Map(props) {
         the_rose_and_the_ring: 'The Rose and the Ring',
         the_star_child: 'The Star-Child',
         the_young_king: 'The Young King',
-        uncle_james: 'Uncle James'
+        uncle_james: 'Uncle James',
+        the_devoted_friend: 'The Devoted Friend'
     }
 
     let authorMapper = {

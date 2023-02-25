@@ -13,6 +13,9 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <link rel="stylesheet" href="https://use.typekit.net/txr6nox.css"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+                          rel="stylesheet"/>
                     <Script src="https://d3js.org/d3.v5.min.js" strategy="beforeInteractive"/>
                     <Script src="https://unpkg.com/topojson-client" strategy="beforeInteractive"/>
                     <Script src="/static/menu.js" strategy="lazyOnload"/>

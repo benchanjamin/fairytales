@@ -9,7 +9,7 @@ export default function BetterHeader() {
                 <div className="flex-col items-start">
                     {/* Logo + Button */}
                     <div className="flex justify-between">
-                        <h2 className="text-[14px] text-white text-left font-bold font-light pl-6 pr-6">FAIRY WEB</h2>
+                        <h2 className="text-[14px] text-white text-left font-bold font-light pl-6 pr-6 font-['Lato']">FAIRY WEB</h2>
 
                         <button
                             id="menu-btn"
