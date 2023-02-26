@@ -22,13 +22,25 @@ function Timeline() {
     }, [])
     return (
         <>
-            <div className={`mt-14 section-container relative`}>
-                <h2 className={`${classes.timeline_header_title}`}>
-                    This timeline lists the publication dates for influential and key fairy tale texts, along with other
-                    dates and facts that pertain to the British fairy tale tradition. N.B.: this timeline is in no way
-                    comprehensive or exhaustive, but rather contains relevant information that was utilized for this
-                    digital humanities project.
-                </h2>
+            <div className={`section-container relative`}>
+                <div className={`flex items-top pt-[7rem]`}>
+                    <h2 className={`${classes.timeline_header_title}`}>
+                        This timeline lists the publication dates for influential and key fairy tale texts, along with
+                        other
+                        dates and facts that pertain to the British fairy tale tradition.
+                        <br/>
+                        <br/>
+                        <p className={`text-[14px]`}>
+                            <em>N.B.: this timeline is in no
+                                way
+                                comprehensive or exhaustive, but rather contains relevant information that was utilized for
+                                this
+                                digital humanities project.</em>
+                        </p>
+                    </h2>
+                </div>
+
+
                 <div className={`${classes.timeline}`}>
                     <div className={`${classes.timeline_item} hidden_item`}
                          data-text="Le Piacevoli Notte (The Pleasant Nights)">
@@ -110,7 +122,8 @@ function Timeline() {
                          data-text="Oberon">
                         <div className={classes.timeline_content}>
                             <h2 className={classes.timeline_content_title}>1805</h2>
-                            <p className={classes.timeline_content_desc}>Wieland&apos;s work is translated, which inspired
+                            <p className={classes.timeline_content_desc}>Wieland&apos;s work is translated, which
+                                inspired
                                 other fairy plays, ballets, and Weber’s opera
                             </p>
                         </div>

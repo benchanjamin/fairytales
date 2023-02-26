@@ -319,7 +319,7 @@ function Map(props) {
 
     return (
         <>
-            <div className={`mt-14 section-container relative`}>
+            <div className={`flex items-start pt-[7rem] section-container relative`}>
                 <h2 className={classes.map_header_title}>
                     Data Visualization of Mappable Locations in the Nineteenth-Century Literary Fairy Tale
                 </h2>

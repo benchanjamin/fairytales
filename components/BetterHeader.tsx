@@ -25,7 +25,7 @@ export default function BetterHeader() {
                     <div className="hidden items-center justify-between space-x-30 md:flex md:text-[24px] text-[28px] xl:text-[32px]
                     md:mt-[15px] pl-6 pr-6">
                         <NavLink href="/" exact
-                                 className="text-white italic font-medium hover:text-lightBlue duration-75">Home</NavLink>
+                                 className="text-white italic font-medium hover:text-lightBlue duration-75 w-[100px]">Home</NavLink>
                         <NavLink href="/timeline" exact
                                  className="text-white italic font-medium hover:text-lightBlue duration-75">Timeline</NavLink>
                         <NavLink href="/map" exact
