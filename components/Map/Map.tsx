@@ -101,7 +101,6 @@ function Map(props) {
     }
 
 
-
     const svgRef = React.useRef(null);
     const [filter, setFilter] = useState("all_text");
 
@@ -143,15 +142,17 @@ function Map(props) {
         function drawPointsOfInterest() {
             d3.json('/static/cleaned-data-12-4.geojson').then(function (data) {
                 let pointsOfInterest = data.features.filter(d => d.geometry.type === 'Point');
+                console.log(pointsOfInterest.sort((a,b) => d3.descending(a.properties.original_total_count, b.properties.original_total_count)))
 
                 svg.select("g").selectAll("g.city").data(pointsOfInterest).enter()
                     .append("g").attr("class", "city")
                     .attr("transform", d => `translate(${[projection(d.geometry.coordinates)]})`)
                     .each(function (d) {
-                            d3.select(this).append("circle").raise()
-                                .attr('r', Math.sqrt(d.properties.original_total_count) + 2)
-                                .on("mouseenter", showTooltip)
-                                .on("mouseleave", hideTooltip);
+                        d3.select(this).append("circle").raise()
+                            .attr('r', Math.sqrt(d.properties.original_total_count) + 2)
+                            .attr('transform', `scale(${(1)})`)
+                            .on("mouseenter", showTooltip)
+                            .on("mouseleave", hideTooltip);
                     });
             })
         }
@@ -163,12 +164,14 @@ function Map(props) {
             .on('zoom', () => {
                 const currentTransform = d3.event.transform;
                 globe.attr("transform", currentTransform);
-                // console.log(currentTransform.k)
+                console.log(currentTransform.k)
                 d3.selectAll("circle").attr("transform", function (d, i, n) {
-                    if (currentTransform.k > 17) {
-                        return `scale(${3 / (currentTransform.k)})`
-                    }
-                    return `scale(${this.r.animVal.value / (this.r.animVal.value + currentTransform.k * 0.18)})`
+                    // if zoomed in pretty far
+                    // if (currentTransform.k > 17) {
+                    //     return `scale(${3 / (currentTransform.k)})`
+                    // }
+                    // else
+                    return `scale(${(1 / currentTransform.k)})`
                 })
             });
 
@@ -297,17 +300,32 @@ function Map(props) {
                 d3.select(svgRef.current).select("g").selectAll("g.city").remove();
 
                 let pointsOfInterest = data.features.filter(d => d.geometry.type === 'Point');
-                console.log(pointsOfInterest)
+                // console.log(pointsOfInterest)
                 if (filter.alt !== "all_text") {
                     pointsOfInterest = pointsOfInterest.filter(d => d.properties.original_book_title === filter.alt)
                 }
 
                 d3.select(svgRef.current).select("g").selectAll("g.city").data(pointsOfInterest).enter()
                     .append("g").attr("class", "city")
-                    .attr("transform", d => `translate(${[projection(d.geometry.coordinates)]})`)
+                    .attr("transform", d => {
+                        return `translate(${[projection(d.geometry.coordinates)]})`
+                    })
                     .each(function (d) {
+                        const globe = d3.select(svgRef.current).select("g");
+                        let currentScaleValue = globe.attr("transform")
+                        if (currentScaleValue === null) {
+                            currentScaleValue = 1;
+                        } else {
+                            let regex = /[+-]?\d+(\.\d+)?/g;
+                            let floats = currentScaleValue.match(regex).map(function (v) {
+                                return parseFloat(v);
+                            });
+                            currentScaleValue = floats[2]
+                        }
+                        currentScaleValue = 1 / currentScaleValue
                         d3.select(this).append("circle").raise()
-                            .attr('r', Math.sqrt(d.properties.original_total_count))
+                            .attr('r', Math.sqrt(d.properties.original_total_count) + 2)
+                            .attr('transform', `scale(${currentScaleValue})`)
                             .on("mouseenter", showTooltip)
                             .on("mouseleave", hideTooltip)
                     });
@@ -315,11 +333,13 @@ function Map(props) {
         }
 
         update(filter)
+
+
     }, [filter]);
 
     return (
         <>
-            <div className={`flex items-start pt-[7rem] section-container relative`}>
+            <div className={`flex items-start pt-[7rem] pb-[1rem] section-container relative`}>
                 <h2 className={classes.map_header_title}>
                     Data Visualization of Mappable Locations in the Nineteenth-Century Literary Fairy Tale
                 </h2>
