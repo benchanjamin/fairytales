@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from "react";
 import * as d3 from "d3";
 import classes from "./Map.module.css"
-import ComboBox from "@components/ListBox/Listbox";
+import TitleListBox from "@components/TitleListBox/TitleListBox";
+import AuthorListBox from "@components/AuthorListBox/AuthorListBox";
+import AuthorAndTitleRadioGroup from "@components/AuthorAndTitleRadioGroup/AuthorAndTitleRadioGroup";
 
 function Map(props) {
     let titleMapper = {
@@ -82,7 +84,7 @@ function Map(props) {
         'The Selfish Giant': 'Oscar Wilde',
         'Prince Prigio': 'Andrew Lang',
         'The Brown Owl': 'Ford Madox Ford',
-        'The Birthday of Infanta': 'Oscar Wilde',
+        'The Birthday of the Infanta': 'Oscar Wilde',
         'The Fisherman and His Soul': 'Oscar Wilde',
         'The Star-Child': 'Oscar Wilde',
         'The Young King': 'Oscar Wilde',
@@ -102,7 +104,10 @@ function Map(props) {
 
 
     const svgRef = React.useRef(null);
-    const [filter, setFilter] = useState("all_text");
+    const [textFilter, setTextFilter] = useState({id: 0, name: "All Texts", alt: "all_texts"});
+    const [authorFilter, setAuthorFilter] = useState({id: 0, name: 'All Authors', titles: []});
+    const [type, setType] = useState({name: 'Titles', desc: 'Choose from titles on map'});
+
 
     useEffect(() => {
         const width = 960;
@@ -142,7 +147,7 @@ function Map(props) {
         function drawPointsOfInterest() {
             d3.json('/static/cleaned-data-12-4.geojson').then(function (data) {
                 let pointsOfInterest = data.features.filter(d => d.geometry.type === 'Point');
-                console.log(pointsOfInterest.sort((a,b) => d3.descending(a.properties.original_total_count, b.properties.original_total_count)))
+                console.log(pointsOfInterest.sort((a, b) => d3.descending(a.properties.original_total_count, b.properties.original_total_count)))
 
                 svg.select("g").selectAll("g.city").data(pointsOfInterest).enter()
                     .append("g").attr("class", "city")
@@ -294,14 +299,12 @@ function Map(props) {
             d3.select("#tooltip").style("opacity", 0)
         }
 
-        function update(filter) {
+        function updateTitles(filter) {
             d3.json('/static/cleaned-data-12-4.geojson').then(function (data) {
                 // TODO: delete existing points
                 d3.select(svgRef.current).select("g").selectAll("g.city").remove();
-
                 let pointsOfInterest = data.features.filter(d => d.geometry.type === 'Point');
-                // console.log(pointsOfInterest)
-                if (filter.alt !== "all_text") {
+                if (filter.name !== "All Texts") {
                     pointsOfInterest = pointsOfInterest.filter(d => d.properties.original_book_title === filter.alt)
                 }
 
@@ -332,23 +335,66 @@ function Map(props) {
             })
         }
 
-        update(filter)
 
+        function updateAuthors(filter) {
+            d3.json('/static/cleaned-data-12-4.geojson').then(function (data) {
+                d3.select(svgRef.current).select("g").selectAll("g.city").remove();
 
-    }, [filter]);
+                let pointsOfInterest = data.features.filter(d => d.geometry.type === 'Point');
+                if (filter.name !== "All Authors") {
+                    pointsOfInterest = pointsOfInterest.filter(d => authorMapper[titleMapper[d.properties.original_book_title]] === filter.name)
+                }
+
+                d3.select(svgRef.current).select("g").selectAll("g.city").data(pointsOfInterest).enter()
+                    .append("g").attr("class", "city")
+                    .attr("transform", d => {
+                        return `translate(${[projection(d.geometry.coordinates)]})`
+                    })
+                    .each(function (d) {
+                        const globe = d3.select(svgRef.current).select("g");
+                        let currentScaleValue = globe.attr("transform")
+                        if (currentScaleValue === null) {
+                            currentScaleValue = 1;
+                        } else {
+                            let regex = /[+-]?\d+(\.\d+)?/g;
+                            let floats = currentScaleValue.match(regex).map(function (v) {
+                                return parseFloat(v);
+                            });
+                            currentScaleValue = floats[2]
+                        }
+                        currentScaleValue = 1 / currentScaleValue
+                        d3.select(this).append("circle").raise()
+                            .attr('r', Math.sqrt(d.properties.original_total_count) + 2)
+                            .attr('transform', `scale(${currentScaleValue})`)
+                            .on("mouseenter", showTooltip)
+                            .on("mouseleave", hideTooltip)
+                    });
+            })
+        }
+
+        // @ts-ignore
+        if (type.name === 'Titles') {
+            updateTitles(textFilter)
+        } else {
+            updateAuthors(authorFilter)
+        }
+
+    }, [type, textFilter, authorFilter]);
+
 
     return (
         <>
-            <div className={`flex items-start pt-[7rem] pb-[1rem] section-container relative`}>
+            <div className={`flex items-start pt-[7rem] pb-[1rem] section-container mb-4`}>
                 <h2 className={classes.map_header_title}>
                     Data Visualization of Mappable Locations in the Nineteenth-Century Literary Fairy Tale
                 </h2>
             </div>
             <div>
-
+                <AuthorAndTitleRadioGroup onChange={setType}/>
             </div>
             <div id="chart">
-                <ComboBox onChange={setFilter}/>
+                {(type.name === 'Titles') ? <TitleListBox onChange={setTextFilter} defaultSelectedValue={textFilter}/> :
+                    <AuthorListBox onChange={setAuthorFilter} defaultSelectedValue={authorFilter}/>}
                 <svg ref={svgRef} id="svg-main" xmlns="http://www.w3.org/1999/xhtml"/>
             </div>
         </>

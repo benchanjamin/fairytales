@@ -4,7 +4,7 @@ import {CheckIcon, ChevronUpDownIcon} from '@heroicons/react/20/solid'
 
 
 const texts = [
-    {id: 0, name: "All Texts", alt: "all_text"},
+    {id: 0, name: "All Texts", alt: "all_texts"},
     {id: 1, name: "Dymchurch Flit", alt: "dymchurch_flit"},
     {id: 2, name: "Kind Little Edmund", alt: "kind_little_edmund"},
     {id: 3, name: "Melisande", alt: "melisande"},
@@ -69,12 +69,12 @@ const texts = [
 // ]
 
 
-export default function ComboBox({onChange}) {
-    const [selected, setSelected] = useState(texts[0])
+export default function ComboBox({onChange, defaultSelectedValue}) {
+    const [selected, setSelected] = useState(defaultSelectedValue)
     const [query, setQuery] = useState('')
 
 
-    const filteredPeople =
+    const filteredTexts =
         query === ''
             ? texts
             : texts.filter((person) =>
@@ -118,20 +118,20 @@ export default function ComboBox({onChange}) {
                     >
                         <Combobox.Options
                             className="text-xs absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-                            {filteredPeople.length === 0 && query !== '' ? (
+                            {filteredTexts.length === 0 && query !== '' ? (
                                 <div className="relative cursor-default select-none py-2 px-4 text-gray-700">
                                     Nothing found.
                                 </div>
                             ) : (
-                                filteredPeople.map((person) => (
+                                filteredTexts.map((text) => (
                                     <Combobox.Option
-                                        key={person.id}
+                                        key={text.id}
                                         className={({active}) =>
                                             `relative cursor-pointer select-none py-2 pl-10 pr-4 ${
                                                 active ? 'bg-darkBlue text-white' : 'text-gray-900'
                                             }`
                                         }
-                                        value={person}
+                                        value={text}
                                     >
                                         {({selected, active}) => (
                                             <>
@@ -140,7 +140,7 @@ export default function ComboBox({onChange}) {
                                 selected ? 'font-medium' : 'font-normal'
                             }`}
                         >
-                          {person.name}
+                          {text.name}
                         </span>
                                                 {selected ? (
                                                     <span
