@@ -12,8 +12,8 @@ function About(props) {
                 <div className="container mx-auto relative">
                     {/* Content Words */}
                     <div
-                        className="pt-[7rem] flex justify-center h-[15vh] items-start mx-auto w-[70%] md:w-[55%] md:h-[35vh] 3xl:w-[80%] align-top">
-                        <h1 className="text-white text-center font-medium text-[13px] md:text-[22px] 3xl:text-[50px] font-['Lato']
+                        className="pt-[7rem] flex justify-center items-start mx-auto w-[70%] md:w-[55%] 3xl:w-[80%] align-top">
+                        <h1 className="text-white text-center mb-10 font-medium text-[13px] md:text-[22px] 3xl:text-[50px] font-['Lato']
                      tracking-[.04rem]">
 
                             FairyWeb was created with funding from the Center for Digital Humanities at Princeton
