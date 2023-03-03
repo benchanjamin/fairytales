@@ -6,6 +6,8 @@ import AuthorListBox from "@components/AuthorListBox/AuthorListBox";
 import AuthorAndTitleRadioGroup from "@components/AuthorAndTitleRadioGroup/AuthorAndTitleRadioGroup";
 
 function Map(props) {
+    let highlightColor = '#5ce1e6';
+
     let titleMapper = {
         all_text: 'All Text',
         dymchurch_flit: 'Dymchurch Flit',
@@ -152,12 +154,18 @@ function Map(props) {
                 svg.select("g").selectAll("g.city").data(pointsOfInterest).enter()
                     .append("g").attr("class", "city")
                     .attr("transform", d => `translate(${[projection(d.geometry.coordinates)]})`)
-                    .each(function (d) {
+                    .each(function (d1) {
                         d3.select(this).append("circle").raise()
-                            .attr('r', Math.sqrt(d.properties.original_total_count) + 2)
+                            .attr('r', Math.sqrt(d1.properties.original_total_count) + 2)
                             .attr('transform', `scale(${(1)})`)
-                            .on("mouseenter", showTooltip)
-                            .on("mouseleave", hideTooltip);
+                            .on("mouseenter", (d2) => {
+                                showTooltip(d2);
+                                d3.select(this).select("circle").style("fill", highlightColor);
+                            })
+                            .on("mouseleave", () => {
+                                hideTooltip();
+                                d3.select(this).select("circle").style("fill", "#5a9294");
+                            })
                     });
             })
         }
@@ -232,7 +240,7 @@ function Map(props) {
                 })
         }
 
-        function showTooltip(d, i, n) {
+        function showTooltip(d) {
             const coords = d3.mouse(svg.node())
             const tooltip = d3.select("#tooltip")
                 .attr("transform", `translate(${[coords[0], coords[1] + 40]})`)
@@ -278,7 +286,7 @@ function Map(props) {
             .center([20, 30])
             .translate([width / 2, height / 2]);
 
-        function showTooltip(d, i, n) {
+        function showTooltip(d) {
             const coords = d3.mouse(d3.select(svgRef.current).node())
             const tooltip = d3.select("#tooltip")
                 .attr("transform", `translate(${[coords[0], coords[1] + 40]})`)
@@ -314,7 +322,7 @@ function Map(props) {
                     .attr("transform", d => {
                         return `translate(${[projection(d.geometry.coordinates)]})`
                     })
-                    .each(function (d) {
+                    .each(function (d1) {
                         const globe = d3.select(svgRef.current).select("g");
                         let currentScaleValue = globe.attr("transform")
                         if (currentScaleValue === null) {
@@ -328,10 +336,17 @@ function Map(props) {
                         }
                         currentScaleValue = 1 / currentScaleValue
                         d3.select(this).append("circle").raise()
-                            .attr('r', Math.sqrt(d.properties.original_total_count) + 2)
+                            .attr('r', Math.sqrt(d1.properties.original_total_count) + 2)
                             .attr('transform', `scale(${currentScaleValue})`)
-                            .on("mouseenter", showTooltip)
-                            .on("mouseleave", hideTooltip)
+                            .on("mouseenter", (d2) => {
+                                showTooltip(d2);
+                                d3.select(this).select("circle").style("fill", highlightColor);
+                            })
+                            .on("mouseleave", () => {
+                                hideTooltip();
+                                // Add +1 to i1 index because 0th index is path.country while rest are g.city
+                                d3.select(this).select("circle").style("fill", "#5a9294")
+                            })
                     });
             })
         }
@@ -353,7 +368,7 @@ function Map(props) {
                     .attr("transform", d => {
                         return `translate(${[projection(d.geometry.coordinates)]})`
                     })
-                    .each(function (d) {
+                    .each(function (d1) {
                         const globe = d3.select(svgRef.current).select("g");
                         let currentScaleValue = globe.attr("transform")
                         if (currentScaleValue === null) {
@@ -367,10 +382,17 @@ function Map(props) {
                         }
                         currentScaleValue = 1 / currentScaleValue
                         d3.select(this).append("circle").raise()
-                            .attr('r', Math.sqrt(d.properties.original_total_count) + 2)
+                            .attr('r', Math.sqrt(d1.properties.original_total_count) + 2)
                             .attr('transform', `scale(${currentScaleValue})`)
-                            .on("mouseenter", showTooltip)
-                            .on("mouseleave", hideTooltip)
+                            .on("mouseenter", (d2) => {
+                                showTooltip(d2);
+                                d3.select(this).select("circle").style("fill", highlightColor);
+                            })
+                            .on("mouseleave", () => {
+                                hideTooltip();
+                                // Add +1 to i1 index because 0th index is path.country while rest are g.city
+                                d3.select(this).select("circle").style("fill", "#5a9294")
+                            })
                     });
             })
         }
