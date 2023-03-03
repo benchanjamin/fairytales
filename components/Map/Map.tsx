@@ -178,7 +178,7 @@ function Map(props) {
                 const currentTransform = d3.event.transform;
                 globe.attr("transform", currentTransform);
                 console.log(currentTransform.k)
-                d3.selectAll("circle").attr("transform", function (d, i, n) {
+                d3.select("g").selectAll("circle").attr("transform", function (d, i, n) {
                     // if zoomed in pretty far
                     // if (currentTransform.k > 17) {
                     //     return `scale(${3 / (currentTransform.k)})`
