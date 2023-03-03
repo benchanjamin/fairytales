@@ -16,7 +16,7 @@ function Map(props) {
         murdochs_rath: "Murdoch's Rath",
         prince_prigio: 'Prince Prigio',
         prince_ricardo_of_pantouflia: 'Prince Ricardo of Pantouflia',
-        the_birthday_of_the_infanta: 'The Birthday of Infanta',
+        the_birthday_of_the_infanta: 'The Birthday of the Infanta',
         the_brown_owl: 'The Brown Owl',
         the_deliverers_of_their_country: 'The Deliverers of Their Country',
         the_fiddler_in_the_fairy_ring: 'The Fiddler in the Fairy Ring',
@@ -179,11 +179,6 @@ function Map(props) {
                 globe.attr("transform", currentTransform);
                 console.log(currentTransform.k)
                 d3.select("g").selectAll("circle").attr("transform", function (d, i, n) {
-                    // if zoomed in pretty far
-                    // if (currentTransform.k > 17) {
-                    //     return `scale(${3 / (currentTransform.k)})`
-                    // }
-                    // else
                     return `scale(${(1 / currentTransform.k)})`
                 })
             });
