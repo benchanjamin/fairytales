@@ -147,7 +147,7 @@ function Map(props) {
         function drawPointsOfInterest() {
             d3.json('/static/cleaned-data-12-4.geojson').then(function (data) {
                 let pointsOfInterest = data.features.filter(d => d.geometry.type === 'Point');
-                console.log(pointsOfInterest.sort((a, b) => d3.descending(a.properties.original_total_count, b.properties.original_total_count)))
+                pointsOfInterest.sort((a, b) => d3.descending(a.properties.original_total_count, b.properties.original_total_count));
 
                 svg.select("g").selectAll("g.city").data(pointsOfInterest).enter()
                     .append("g").attr("class", "city")
@@ -307,6 +307,7 @@ function Map(props) {
                 if (filter.name !== "All Texts") {
                     pointsOfInterest = pointsOfInterest.filter(d => d.properties.original_book_title === filter.alt)
                 }
+                pointsOfInterest.sort((a, b) => d3.descending(a.properties.original_total_count, b.properties.original_total_count));
 
                 d3.select(svgRef.current).select("g").selectAll("g.city").data(pointsOfInterest).enter()
                     .append("g").attr("class", "city")
@@ -344,6 +345,8 @@ function Map(props) {
                 if (filter.name !== "All Authors") {
                     pointsOfInterest = pointsOfInterest.filter(d => authorMapper[titleMapper[d.properties.original_book_title]] === filter.name)
                 }
+                pointsOfInterest.sort((a, b) => d3.descending(a.properties.original_total_count, b.properties.original_total_count));
+
 
                 d3.select(svgRef.current).select("g").selectAll("g.city").data(pointsOfInterest).enter()
                     .append("g").attr("class", "city")
