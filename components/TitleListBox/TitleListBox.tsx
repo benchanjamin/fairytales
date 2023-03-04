@@ -86,7 +86,7 @@ export default function ComboBox({onChange, defaultSelectedValue}) {
 
     // @ts-ignore
     return (
-        <div className="absolute -top-5 left-1/2 -translate-x-1/2 sm:w-[23rem] w-[19rem] md:left-2 md:top-12 md:translate-x-0 font-change">
+        <div className="absolute -top-11 left-1/2 -translate-x-1/2 sm:w-[23rem] w-[19rem] md:left-2 md:top-12 md:translate-x-0 font-change">
             <Combobox value={selected} by="id" onChange={e => {
                 setSelected(e);
                 onChange(e)
@@ -95,7 +95,7 @@ export default function ComboBox({onChange, defaultSelectedValue}) {
                     <div
                         className="relative w-full cursor-default overflow-hidden rounded-lg bg-white text-left shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-teal-300 sm:text-sm">
                         <Combobox.Input
-                            className="w-full border-none py-2 pl-3 pr-10 sm:text-sm text-xs leading-5 text-gray-900 focus:ring-0"
+                            className="text-xs w-full border-none py-2 pl-3 pr-10 sm:text-sm text-gray-900 focus:ring-0"
                             // @ts-ignore
                             displayValue={(person) => person.name}
                             onChange={(event) => setQuery(event.target.value)}
@@ -117,9 +117,9 @@ export default function ComboBox({onChange, defaultSelectedValue}) {
                         afterLeave={() => setQuery('')}
                     >
                         <Combobox.Options
-                            className="text-xs absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                            className="text-xs absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
                             {filteredTexts.length === 0 && query !== '' ? (
-                                <div className="relative cursor-default select-none py-2 px-4 text-gray-700">
+                                <div className="relative cursor-pointer select-none py-2 px-4 text-gray-700">
                                     Nothing found.
                                 </div>
                             ) : (
