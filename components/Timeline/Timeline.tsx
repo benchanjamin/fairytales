@@ -23,7 +23,7 @@ function Timeline() {
     return (
         <>
             <div className={`section-container relative`}>
-                <div className={`flex items-top pt-[7rem]`}>
+                <div className={`flex items-top md:pt-[7rem] pt-[3rem]`}>
                     <h2 className={`${classes.timeline_header_title}`}>
                         This timeline lists the publication dates for influential and key fairy tale texts, along with
                         other

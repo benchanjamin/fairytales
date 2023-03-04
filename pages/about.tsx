@@ -12,7 +12,7 @@ function About(props) {
                 <div className="container mx-auto relative">
                     {/* Content Words */}
                     <div
-                        className="pt-[7rem] flex justify-center items-start mx-auto w-[70%] md:w-[55%] 3xl:w-[80%] align-top mb-14">
+                        className="md:pt-[7rem] pt-[3rem] flex justify-center items-start mx-auto w-[70%] md:w-[55%] 3xl:w-[80%] align-top mb-14">
                         <h1 className="text-white text-center font-medium text-[13px] md:text-[22px] 3xl:text-[50px] font-['Lato']
                      tracking-[.04rem]">
 

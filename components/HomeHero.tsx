@@ -8,7 +8,7 @@ function HomeHero(props) {
             <div className="container mx-auto relative">
                 {/* Content Words */}
                 <div
-                    className="flex justify-center h-[15vh] items-top mx-auto w-[70%] md:w-[55%] md:h-[35vh] 3xl:w-[80%] pt-[7rem]">
+                    className="flex justify-center pt-[3rem] h-[25vh] items-top mx-auto w-[70%] md:w-[55%] md:h-[35vh] 3xl:w-[80%] md:pt-[7rem]">
                     <h1 className="text-white text-center font-medium text-[13px] md:text-[22px] 3xl:text-[50px] font-['Lato']
                      tracking-[.04rem]">
                         Fairy Web is a digital humanities project that includes information and
