@@ -86,7 +86,7 @@ export default function ComboBox({onChange, defaultSelectedValue}) {
 
     // @ts-ignore
     return (
-        <div className="relative -top-5 left-1/2 -translate-x-1/2 sm:w-[23rem] w-[19rem] md:left-2 md:top-12 md:translate-x-0 font-change">
+        <div className="absolute -top-5 left-1/2 -translate-x-1/2 sm:w-[23rem] w-[19rem] md:left-2 md:top-12 md:translate-x-0 font-change">
             <Combobox value={selected} by="id" onChange={e => {
                 setSelected(e);
                 onChange(e)

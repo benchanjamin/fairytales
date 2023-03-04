@@ -4,6 +4,7 @@ import classes from "./Map.module.css"
 import TitleListBox from "@components/TitleListBox/TitleListBox";
 import AuthorListBox from "@components/AuthorListBox/AuthorListBox";
 import AuthorAndTitleRadioGroup from "@components/AuthorAndTitleRadioGroup/AuthorAndTitleRadioGroup";
+import AuthorAndTitleListBox from "@components/AuthorAndTitleListBox/AuthorAndTitleListBox";
 
 function Map(props) {
     let highlightColor = '#5ce1e6';
@@ -393,7 +394,7 @@ function Map(props) {
         }
 
         // @ts-ignore
-        if (type.name === 'Titles') {
+        if (type.name === 'By Title') {
             updateTitles(textFilter)
         } else {
             updateAuthors(authorFilter)
@@ -409,11 +410,9 @@ function Map(props) {
                     Data Visualization of Mappable Locations in the Nineteenth-Century Literary Fairy Tale
                 </h2>
             </div>
-            <div>
-                <AuthorAndTitleRadioGroup onChange={setType}/>
-            </div>
-            <div id="chart">
-                {(type.name === 'Titles') ? <TitleListBox onChange={setTextFilter} defaultSelectedValue={textFilter}/> :
+            <div id="chart" className="relative">
+                <AuthorAndTitleListBox onChange={setType}/>
+                {(type.name === 'By Title') ? <TitleListBox onChange={setTextFilter} defaultSelectedValue={textFilter}/> :
                     <AuthorListBox onChange={setAuthorFilter} defaultSelectedValue={authorFilter}/>}
                 <svg ref={svgRef} id="svg-main" xmlns="http://www.w3.org/1999/xhtml"/>
             </div>
