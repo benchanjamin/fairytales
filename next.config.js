@@ -2,8 +2,13 @@
 const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
+  // images: {
+  //   formats: ['image/webp'],
+  // },
   images: {
-    formats: ['image/webp'],
+    images: {
+      hostname: ['ik.imagekit.io'],
+    },
   },
 }
 
