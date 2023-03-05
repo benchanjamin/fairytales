@@ -109,7 +109,7 @@ function Map(props) {
     const svgRef = React.useRef(null);
     const [textFilter, setTextFilter] = useState({id: 0, name: "All Texts", alt: "all_texts"});
     const [authorFilter, setAuthorFilter] = useState({id: 0, name: 'All Authors', titles: []});
-    const [type, setType] = useState({name: 'Titles', desc: 'Choose from titles on map'});
+    const [type, setType] = useState({name: 'By Title', desc: 'Choose from titles on map'});
 
 
     useEffect(() => {
