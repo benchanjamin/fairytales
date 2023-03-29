@@ -57,12 +57,12 @@
     letter-spacing: 2px;
     width: 100%;
     position: absolute;
-    color: #ffffff;
+    /*color: #ffffff;*/
     font-style: italic;
     font-size: 16px;
     font-family: cormorant-garamond, sans-serif;
     border-left: 2px solid #ffffff;
-    top: 70%;
+    top: 50%;
     margin-top: -2rem;
     padding-left: 15px;
     text-align: left;
@@ -79,7 +79,7 @@
     font-size: 16px;
     font-family: cormorant-garamond, sans-serif;
     border-left: 2px solid #ffffff;
-    top: 70%;
+    top: 50%;
     margin-top: -2rem;
     padding-left: 15px;
     text-align: left;
@@ -102,7 +102,7 @@
 }
 
 .timeline_item {
-    padding: 34px 0;
+    padding: 70px 0;
     /*opacity: 0.3;*/
     /*filter: blur(2px);*/
     transition: 0.7s ease-in;
