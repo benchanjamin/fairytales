@@ -8,7 +8,6 @@ export default function BetterHeader() {
                 <div className="flex justify-between">
                     <h2 className="text-[14px] text-white text-left font-bold font-light pl-6 pr-6 font-['Lato']">
                         FAIRY WEB</h2>
-
                     <button
                         id="menu-btn"
                         className="z-30 block md:hidden focus:outline-none hamburger"
@@ -37,13 +36,11 @@ export default function BetterHeader() {
             <div className="relative mx-auto">
                 <div className="flex-col items-start">
                     {/* Logo + Button */}
-
-
-
-
                     <div
                         id="menu"
-                        className="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-lightBlack font-['Lato']"
+                        className="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen
+                        px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90
+                        bg-lightBlack font-['Lato']"
                     >
                         <div className="w-full py-3 text-center nav-mobile-menu">
                             <Link href="/" className="block hover:text-softRed">Home</Link>
