@@ -43,16 +43,16 @@ export default function BetterHeader() {
                         id="menu"
                         className="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-lightBlack font-['Lato']"
                     >
-                        <div className="w-full py-3 text-center">
+                        <div className="w-full py-3 text-center nav-mobile-menu">
                             <Link href="/" className="block hover:text-softRed">Home</Link>
                         </div>
-                        <div className="w-full py-3 text-center">
+                        <div className="w-full py-3 text-center nav-mobile-menu">
                             <Link href="/timeline" className="block hover:text-softRed">Timeline</Link>
                         </div>
-                        <div className="w-full py-3 text-center">
+                        <div className="w-full py-3 text-center nav-mobile-menu">
                             <Link href="/map" className="block hover:text-softRed">Map</Link>
                         </div>
-                        <div className="w-full py-3 text-center">
+                        <div className="w-full py-3 text-center nav-mobile-menu">
                             <Link href="/about" className="block hover:text-softRed">About</Link>
                         </div>
                     </div>

@@ -310,7 +310,7 @@ const texts = [
         'Color': 'Green'
     }, {
         'Date': '1888',
-        'Event': 'Oscar Wilde published ',
+        'Event': 'Oscar Wilde published',
         'Title of Literary Work': 'The Happy Prince and Other Tales ("The Happy Prince," "The Selfish Giant," "The Nightingale and the Rose," "The Devoted Friend," "The Remarkable Rocket"',
         'Literary Database?': 'Yes',
         'Popular Database?': 'No',
@@ -359,7 +359,7 @@ const texts = [
         'Color': 'Green'
     }, {
         'Date': '1891',
-        'Event': 'Oscar Wilde published ',
+        'Event': 'Oscar Wilde published',
         'Title of Literary Work': 'A House of Pomegranates ("The Birthday of the Infanta," "The Young King," "The Fisherman and His Soul," "The Star-Child")',
         'Literary Database?': 'Yes',
         'Popular Database?': 'No',
@@ -477,6 +477,38 @@ function Timeline() {
 
 
     const listTexts = texts.map(text => {
+        if (text.Event === 'E. Nesbit published') {
+            return (
+                <>
+                    <div className={`text-sky-400 ${classes.timeline_item} hidden_item`}
+                         data-text={text['Title of Literary Work']}>
+                        <div className={`${classes.timeline_content}`}>
+                            <h2 className={`${classes.timeline_content_title}`}>{text.Date}</h2>
+                            <p className={classes.timeline_content_desc}>{text.Event}
+                            </p>
+                        </div>
+                    </div>
+                    <div className="h-[450px] sm:h-[100px]"></div>
+                    <div></div>
+                </>
+            )
+        }
+        if (text.Event === 'Oscar Wilde published') {
+            return (
+                <>
+                    <div className={`text-sky-400 ${classes.timeline_item} hidden_item`}
+                         data-text={text['Title of Literary Work']}>
+                        <div className={`${classes.timeline_content}`}>
+                            <h2 className={`${classes.timeline_content_title}`}>{text.Date}</h2>
+                            <p className={classes.timeline_content_desc}>{text.Event}
+                            </p>
+                        </div>
+                    </div>
+                    <div className="h-[250px] sm:h-[80px]"></div>
+                    <div></div>
+                </>
+            )
+        }
         if (text.Color === 'Green') {
             return (
                 <div className={`text-emerald-400 ${classes.timeline_item} hidden_item`}
@@ -490,7 +522,7 @@ function Timeline() {
             )
         } else if (text.Color === 'Teal') {
             return (
-                <div className={`text-[#5a9294] ${classes.timeline_item} hidden_item`}
+                <div className={`text-sky-400 ${classes.timeline_item} hidden_item`}
                      data-text={text['Title of Literary Work']}>
                     <div className={`${classes.timeline_content}`}>
                         <h2 className={`${classes.timeline_content_title}`}>{text.Date}</h2>
@@ -501,14 +533,18 @@ function Timeline() {
             )
         } else if (text.Color === 'White') {
             return (
-                <div className={`text-white ${classes.timeline_item} hidden_item`}
-                     data-text={text['Title of Literary Work']}>
-                    <div className={`${classes.timeline_content}`}>
-                        <h2 className={`${classes.timeline_content_title}`}>{text.Date}</h2>
-                        <p className={classes.timeline_content_desc}>{text.Event}
-                        </p>
+                <>
+                    <div className={`text-white ${classes.timeline_item} hidden_item`}
+                         data-text={text['Title of Literary Work']}>
+                        <div className={`${classes.timeline_content}`}>
+                            <h2 className={`${classes.timeline_content_title}`}>{text.Date}</h2>
+                            <p className={classes.timeline_content_desc}>{text.Event}
+                            </p>
+                        </div>
                     </div>
-                </div>
+                    <div className="h-[40px]"></div>
+                    <div></div>
+                </>
             )
         }
     })
