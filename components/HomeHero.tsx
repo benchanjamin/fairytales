@@ -46,7 +46,7 @@ function HomeHero(props) {
                                 </p>
                                 <p className="text-sm">
                                     Photo taken from {" "}
-                                    <span className="hover:text-lightBlue">
+                                    <span className="text-lightBlue">
                                     <Link href="https://catalog.princeton.edu/catalog/9939366463506421">
                                         Princeton University Special Collections.
                                     </Link>
@@ -71,7 +71,7 @@ function HomeHero(props) {
                                     Osgoode McIlvaine, 1891).</p>
                                 <p className="text-sm">
                                     Photo taken from {" "}
-                                    <span className="hover:text-lightBlue">
+                                    <span className="text-lightBlue">
 
                                     <Link href="https://catalog.princeton.edu/catalog/9924499343506421">
                                         Princeton University Special Collections.
@@ -96,7 +96,7 @@ function HomeHero(props) {
                                     Macmillan & Co. in 1880).</p>
                                 <p className="text-sm">
                                     Photo taken from {" "}
-                                    <span className="hover:text-lightBlue">
+                                    <span className="text-lightBlue">
                                     <Link href="https://catalog.princeton.edu/catalog/9915476373506421">
                                         Princeton University Special Collections.
                                     </Link>
