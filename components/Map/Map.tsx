@@ -3,7 +3,6 @@ import * as d3 from "d3";
 import classes from "./Map.module.css"
 import TitleListBox from "@components/TitleListBox/TitleListBox";
 import AuthorListBox from "@components/AuthorListBox/AuthorListBox";
-import AuthorAndTitleRadioGroup from "@components/AuthorAndTitleRadioGroup/AuthorAndTitleRadioGroup";
 import AuthorAndTitleListBox from "@components/AuthorAndTitleListBox/AuthorAndTitleListBox";
 
 function Map(props) {
@@ -407,7 +406,7 @@ function Map(props) {
         <>
             <div className={`flex items-start md:pt-[7rem] pt-[3rem] pb-[5rem] mb-[4.25rem] md:pb-0 md:mb-0 section-container mb-4`}>
                 <h2 className={classes.map_header_title}>
-                    Data Visualization of Mappable Locations in the Nineteenth-Century Literary Fairy Tale
+      Mappable Locations in The 19th Century Literary Fairy Tale*
                 </h2>
             </div>
             <div id="chart" className="relative">
@@ -416,6 +415,7 @@ function Map(props) {
                     <AuthorListBox onChange={setAuthorFilter} defaultSelectedValue={authorFilter}/>}
                 <svg ref={svgRef} id="svg-main" xmlns="http://www.w3.org/1999/xhtml"/>
             </div>
+            <h5 className={`${classes.map_bottom_asterisk} text-center mt-3 mb-16`} >*from FairyWeb's Literary Fairy Tale Dataset</h5>
         </>
     );
 }

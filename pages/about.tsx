@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from "next/head";
 import HomeHero from "@components/HomeHero";
+import Link from "next/link";
 
 function About(props) {
     return (
@@ -23,6 +24,13 @@ function About(props) {
 
                         </h1>
                     </div>
+
+                    <Link href="/static/FairyWeb_literary-fairy-tale-database_list-of-texts.xlsx">
+                        <button className="px-10 py-3 mb-5 bg-darkBlue rounded-xl block mx-auto text-gray-100">
+                            Download the FairyWeb Database
+                        </button>
+                    </Link>
+
                 </div>
             </section>
         </>

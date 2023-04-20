@@ -6,3 +6,11 @@
     letter-spacing: .04rem;
     margin: auto auto 1rem;
 }
+
+.map_bottom_asterisk {
+    color: #fff;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+    letter-spacing: .04rem;
+}
