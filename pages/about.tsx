@@ -26,11 +26,16 @@ function About(props) {
                     </div>
 
                     <Link href="/static/FairyWeb_literary-fairy-tale-database_list-of-texts.xlsx">
-                        <button className="px-10 py-3 mb-5 bg-darkBlue rounded-xl block mx-auto text-gray-100">
-                            Download the FairyWeb Database
+                        <button className="px-10 py-3 mb-5 bg-darkBlue rounded-xl block mx-auto text-gray-100 font-['Lato']">
+                            Download the Fairy Web Database — List of Texts
                         </button>
                     </Link>
 
+                    <Link href="/static/FairyWeb_literary-fairy-tale-database_full-texts.zip">
+                        <button className="px-10 py-3 mb-5 bg-darkBlue rounded-xl block mx-auto text-gray-100 font-['Lato']">
+                            Download the Fairy Web Database — Full Texts
+                        </button>
+                    </Link>
                 </div>
             </section>
         </>
