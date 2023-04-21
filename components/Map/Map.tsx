@@ -415,7 +415,7 @@ function Map(props) {
                     <AuthorListBox onChange={setAuthorFilter} defaultSelectedValue={authorFilter}/>}
                 <svg ref={svgRef} id="svg-main" xmlns="http://www.w3.org/1999/xhtml"/>
             </div>
-            <h5 className={`${classes.map_bottom_asterisk} text-center mt-3 mb-16`} >*from FairyWeb's Literary Fairy Tale Dataset</h5>
+            <h5 className={`${classes.map_bottom_asterisk} text-center mt-3 mb-16`} >*from FairyWeb&apos;s Literary Fairy Tale Dataset</h5>
         </>
     );
 }
