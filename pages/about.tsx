@@ -17,7 +17,7 @@ function About(props) {
                         <h1 className="text-white text-center font-medium text-[13px] md:text-[22px] 3xl:text-[50px] font-['Lato']
                      tracking-[.04rem]">
 
-                            FairyWeb was created with funding from the Center for Digital Humanities at Princeton
+                            Fairy Web was created with funding from the Center for Digital Humanities at Princeton
                             University and initiated by Kate Clairmont, a PhD Candidate in the Department of English at
                             Princeton. The website is a companion to the research and dissertation of the project
                             “Magical Elsewheres: Setting and Place in the Nineteenth-Century Fairy Tale.”
