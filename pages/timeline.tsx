@@ -6,7 +6,7 @@ export default function timeline() {
     return (
         <>
             <Head>
-                <title>FairyWeb Timeline</title>
+                <title>Fairy Web Timeline</title>
             </Head>
             <Timeline/>
         </>

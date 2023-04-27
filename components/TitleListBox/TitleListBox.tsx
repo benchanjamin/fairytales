@@ -99,8 +99,7 @@ export default function ComboBox({onChange, defaultSelectedValue}) {
                             // @ts-ignore
                             displayValue={(person) => person.name}
                             onChange={(event) => setQuery(event.target.value)}
-                            // @ts-ignore
-                            spellcheck="false"
+                            spellCheck="false"
                         />
                         <Combobox.Button className="absolute inset-y-0 right-0 flex items-center pr-2">
                             <ChevronUpDownIcon

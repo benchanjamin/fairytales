@@ -554,9 +554,10 @@ function Timeline() {
             <div className={`section-container relative`}>
                 <div className={`flex items-top md:pt-[7rem] pt-[3rem]`}>
                     <h2 className={`${classes.timeline_header_title}`}>
-                        This timeline lists the publication dates for influential and key fairy tale texts, along with
-                        other
-                        dates and facts that pertain to the British fairy tale tradition.
+                        This timeline includes publication dates for fairy tale texts within both the Fairy Web Literary Fairy Tale Dataset and the Fairy Web Anthology and Popular Fairy Tale Dataset, as well as dates for fairy tale texts that are historically or contextually relevant to the texts and/or authors included in both datasets.
+                        <br/>
+                        <br/>
+                        Fairy tale texts that appear in blue are from the Fairy Web Literary Fairy Tale Dataset, while texts in green are from the Fairy Web Anthology and Popular Fairy Tale Dataset. Texts that appear in white are provided for historical context.
                         <br/>
                         <br/>
                         <p className={`text-[14px]`}>

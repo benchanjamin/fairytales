@@ -8,7 +8,7 @@ export default function map() {
     return (
         <>
             <Head>
-                <title>FairyWeb Map</title>
+                <title>Fairy Web Map</title>
             </Head>
             <Map/>
         </>

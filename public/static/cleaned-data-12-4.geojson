@@ -2837,15 +2837,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.3616,
+          9.1616,
           52.1042
         ]
       },
       "properties": {
-        "original_": 276,
-        "original_text": "HAMELIN",
-        "original_count": 1,
-        "original_total_count": 1,
+        "original_": 283,
+        "original_text": "Hamelin",
+        "original_count": 2,
+        "original_total_count": 2,
         "original_book_title": "the_pied_piper_of_hamelin",
         "original_supersense_category": "noun.location",
         "lat_long_coordinates": "52.1042, 9.3616"
@@ -2856,56 +2856,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5989831,
-          37.1807279
-        ]
-      },
-      "properties": {
-        "original_": 283,
-        "original_text": "Hamelin",
-        "original_count": 1,
-        "original_total_count": 1,
-        "original_book_title": "the_pied_piper_of_hamelin",
-        "original_supersense_category": "noun.location",
-        "lat_long_coordinates": "37.1807279, -3.5989831"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.5989831,
-          37.1807279
+          9.3616,
+          52.1042
         ]
       },
       "properties": {
         "original_": 284,
         "original_text": "Hamelin Town",
-        "original_count": 1,
-        "original_total_count": 1,
+        "original_count": 2,
+        "original_total_count": 2,
         "original_book_title": "the_pied_piper_of_hamelin",
         "original_supersense_category": "noun.location",
-        "lat_long_coordinates": "37.1807279, -3.5989831"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.5989831,
-          37.1807279
-        ]
-      },
-      "properties": {
-        "original_": 285,
-        "original_text": "Hamelin town",
-        "original_count": 1,
-        "original_total_count": 1,
-        "original_book_title": "the_pied_piper_of_hamelin",
-        "original_supersense_category": "noun.location",
-        "lat_long_coordinates": "37.1807279, -3.5989831"
+        "lat_long_coordinates": "52.1042, 9.3616"
       }
     },
     {

@@ -7,7 +7,7 @@ function About(props) {
     return (
         <>
             <Head>
-                <title>FairyWeb About</title>
+                <title>Fairy Web About</title>
             </Head>
             <section id="about">
                 <div className="container mx-auto relative">
