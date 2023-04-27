@@ -27,13 +27,25 @@ function About(props) {
 
                     <Link href="/static/FairyWeb_literary-fairy-tale-database_list-of-texts.xlsx">
                         <button className="px-10 py-3 mb-5 bg-darkBlue rounded-xl block mx-auto text-gray-100 font-bold font-['Lato']">
-                            Download the Fairy Web Database — List of Texts
+                            Download the Literary Fairy Tale Dataset — List of Texts
                         </button>
                     </Link>
 
                     <Link href="/static/FairyWeb_literary-fairy-tale-database_full-texts.zip">
                         <button className="px-10 py-3 mb-5 bg-darkBlue rounded-xl block mx-auto text-gray-100 font-bold font-['Lato']">
-                            Download the Fairy Web Database — Full Texts
+                            Download the Literary Fairy Tale Dataset — Full Texts
+                        </button>
+                    </Link>
+
+                    <Link href="/static/FairyWeb_popular-fairy-tale-database_list-of-texts.xlsx">
+                        <button className="px-10 py-3 mb-5 bg-emerald-400 rounded-xl block mx-auto text-gray-100 font-bold font-['Lato']">
+                            Download the Popular Fairy Tale Dataset — List of Texts
+                        </button>
+                    </Link>
+
+                    <Link href="/static/Fairyweb_popular-fairy-tale-database_full-texts.zip">
+                        <button className="px-10 py-3 mb-5 bg-emerald-400 rounded-xl block mx-auto text-gray-100 font-bold font-['Lato']">
+                            Download the Popular Fairy Tale Dataset — Full Texts
                         </button>
                     </Link>
                 </div>
