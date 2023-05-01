@@ -160,11 +160,11 @@ function Map(props) {
                             .attr('transform', `scale(${(1)})`)
                             .on("mouseenter", (d2) => {
                                 showTooltip(d2);
-                                d3.select(this).select("circle").style("fill", highlightColor);
+                                d3.select(this).select("circle").attr("fill", highlightColor);
                             })
                             .on("mouseleave", () => {
                                 hideTooltip();
-                                d3.select(this).select("circle").style("fill", "#5a9294");
+                                d3.select(this).select("circle").attr("fill", "#5a9294");
                             })
                     });
             })
@@ -177,7 +177,7 @@ function Map(props) {
             .on('zoom', () => {
                 const currentTransform = d3.event.transform;
                 globe.attr("transform", currentTransform);
-                console.log(currentTransform.k)
+                // console.log(currentTransform.k)
                 d3.select("g").selectAll("circle").attr("transform", function (d, i, n) {
                     return `scale(${(1 / currentTransform.k)})`
                 })
@@ -335,12 +335,12 @@ function Map(props) {
                             .attr('transform', `scale(${currentScaleValue})`)
                             .on("mouseenter", (d2) => {
                                 showTooltip(d2);
-                                d3.select(this).select("circle").style("fill", highlightColor);
+                                d3.select(this).select("circle").attr("fill", highlightColor);
                             })
                             .on("mouseleave", () => {
                                 hideTooltip();
                                 // Add +1 to i1 index because 0th index is path.country while rest are g.city
-                                d3.select(this).select("circle").style("fill", "#5a9294")
+                                d3.select(this).select("circle").attr("fill", "#5a9294")
                             })
                     });
             })
@@ -381,12 +381,12 @@ function Map(props) {
                             .attr('transform', `scale(${currentScaleValue})`)
                             .on("mouseenter", (d2) => {
                                 showTooltip(d2);
-                                d3.select(this).select("circle").style("fill", highlightColor);
+                                d3.select(this).select("circle").attr("fill", highlightColor);
                             })
                             .on("mouseleave", () => {
                                 hideTooltip();
                                 // Add +1 to i1 index because 0th index is path.country while rest are g.city
-                                d3.select(this).select("circle").style("fill", "#5a9294")
+                                d3.select(this).select("circle").attr("fill", "#5a9294")
                             })
                     });
             })
